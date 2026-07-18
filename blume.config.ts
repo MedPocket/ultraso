@@ -26,7 +26,10 @@ export default defineConfig({
 
   deployment: {
     output: "static",
-    site: "https://medpocket.github.io",
-    base: "/ultraso",
+    site:
+      process.env.NETLIFY === "true"
+        ? process.env.URL || "https://ultraso.netlify.app"
+        : "https://medpocket.github.io",
+    base: process.env.NETLIFY === "true" ? "/" : "/ultraso",
   },
 });
