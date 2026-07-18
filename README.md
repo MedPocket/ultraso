@@ -1,7 +1,5 @@
 # Ultraso
 
-> Document for clinical ultrasound physics, scanning techniques, and applications.
-
 **Ultraso** is built using the [**Blume**](https://useblume.dev) documentation framework (powered by Astro and Vite).
 
 ## Develop locally
