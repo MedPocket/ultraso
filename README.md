@@ -1,70 +1,70 @@
 # Ultrasound Learning
 
-Một cổng thông tin giáo dục toàn diện, tương tác dành cho vật lý siêu âm lâm sàng, kỹ thuật quét và các ứng dụng thực tiễn.
+A comprehensive, interactive educational portal for clinical ultrasound physics, scanning techniques, and applications.
 
-## 🚀 Giới thiệu
+## 🚀 Introduction
 
-Dự án **Ultrasound Learning** (siêu âm học) được xây dựng trên nền tảng **Blume** (sử dụng Astro và Vite), giúp các học viên lâm sàng, bác sĩ nội trú và sinh viên y khoa dễ dàng tiếp cận các hướng dẫn cô đọng và trực quan về siêu âm.
+The **Ultrasound Learning** portal is built using the **Blume** documentation framework (powered by Astro and Vite). It is designed to provide clinical practitioners, residents, and students with high-yield, interactive guides on clinical ultrasonography.
 
-Tài liệu được tổ chức theo cấu trúc phân mục rõ ràng từ nguyên lý cơ bản, kỹ thuật quét cho đến hướng dẫn lâm sàng chi tiết.
+The documentation is organized systematically, covering basic physics, imaging modes, transducer manipulation, and knobology.
 
-## 🛠️ Cài đặt & Phát triển
+## 🛠️ Installation & Local Development
 
-Hệ sinh thái của dự án hỗ trợ Node (v22+) và sử dụng **Bun** làm trình quản lý gói chính.
+The development environment requires Node (v22+) and uses **Bun** as the primary package manager.
 
-### 1. Cài đặt các gói phụ thuộc
+### 1. Install Dependencies
 
-Sử dụng lệnh sau để cài đặt toàn bộ dependencies:
+To install all required dependencies, run:
 
 ```bash
 bun install
 ```
 
-### 2. Phát triển (Development Mode)
+### 2. Start the Local Development Server
 
-Chạy môi trường phát triển cục bộ:
+Run the Blume local development server with hot-reloading:
 
 ```bash
 bun run blume dev
 ```
 
-### 3. Kiểm tra chẩn đoán tài liệu (Doctor Mode)
+### 3. Diagnose Documentation (Doctor Mode)
 
-Chạy công cụ chẩn đoán của Blume để phát hiện lỗi cấu trúc hoặc liên kết:
+Run Blume's diagnostic tool to detect any broken internal links, anchor mismatches, or structural issues:
 
 ```bash
 npx blume doctor
 ```
 
-### 4. Biên dịch tĩnh (Production Build)
+### 4. Build for Production
 
-Biên dịch dự án thành trang web tĩnh (đầu ra lưu tại thư mục `dist/`):
+Build the site statically (output is generated inside the `dist/` directory):
 
 ```bash
 npx blume build
 ```
 
-### 5. Xem trước bản dựng tĩnh (Preview Mode)
+### 5. Preview Production Build Locally
 
-Chạy máy chủ thử nghiệm cục bộ trên cổng `4321` để kiểm tra trang web đã được biên dịch tĩnh:
+Run a local preview server on port `4321` to test the statically built site:
 
 ```bash
 npx blume preview
 ```
-Địa chỉ xem trước: `http://localhost:4321/ultraso`
+The preview URL: `http://localhost:4321/ultraso`
 
-## ⚙️ Cấu hình đặc trưng
+## ⚙️ Configuration Details
 
-Trang tài liệu này được tùy chỉnh với các thiết lập đặc biệt trong `blume.config.ts`:
+This site is configured with specific features managed in `blume.config.ts`:
 
-- **Đa ngôn ngữ & Tiếng Việt (`i18n`):** Hệ thống sử dụng Tiếng Việt làm ngôn ngữ giao diện chính (`defaultLocale: "vi"`) với hậu tố đường dẫn được ẩn đi (`hideDefaultLocalePrefix: true`) giúp giữ URL luôn ngắn gọn.
-- **Tắt phản hồi người dùng (`feedback: false`):** Đã tắt widget "Was this helpful?" (Trang này có hữu ích không?).
-- **Bật tính năng chỉnh sửa tài liệu (`github`):** Hỗ trợ liên kết "Chỉnh sửa trên GitHub" trực tiếp trên mỗi trang tài liệu để cộng đồng có thể dễ dàng đóng góp nội dung.
-- **Tự động cập nhật dependencies (`.github/renovate.json`):** Tích hợp Renovate sử dụng bộ cấu hình chia sẻ từ `github>area44-config`.
+- **Vietnamese Language Support (`i18n`):** The documentation utilizes Vietnamese (`vi`) as the default language.
+- **Feedback Widget Disabled (`feedback: false`):** The default "Was this helpful?" widget is disabled on all pages.
+- **Enable Edit Pages (`github`):** The repository configuration is defined to automatically generate "Edit this page" links on GitHub, allowing clinical contributors to easily propose improvements.
+- **Automated Dependency Updates (`.github/renovate.json`):** Renovate bot is integrated in the `.github` directory, extending the shared preset `github>area44-config`.
 
-## 📁 Cấu trúc thư mục tài liệu
+## 📁 Repository Structure
 
-- `docs/`: Chứa toàn bộ nội dung tài liệu viết bằng Markdown/MDX.
-  - `01-basics/`: Các bài học cơ bản về vật lý siêu âm và chế độ hiển thị.
-  - `02-scanning/`: Các kỹ thuật điều khiển đầu dò và điều chỉnh máy siêu âm.
-  - `index.mdx`: Trang chủ giới thiệu của Ultrasound Learning.
+- `docs/`: Holds the Markdown/MDX content.
+  - `01-basics/`: Fundamental ultrasound physics and standard imaging modes.
+  - `02-scanning/`: Guides on transducer selection and knobology/optimization.
+  - `index.mdx`: Homepage / introduction of Ultrasound Learning.
