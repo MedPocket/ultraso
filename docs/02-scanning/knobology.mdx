@@ -1,81 +1,80 @@
 ---
-title: Knobology & Optimization
-description: Learn how to utilize and adjust basic machine controls to obtain high-quality images.
+title: Điều chỉnh máy & Tối ưu hóa ảnh (Knobology)
+description: Tìm hiểu cách sử dụng và điều chỉnh các phím chức năng cơ bản trên máy siêu âm để thu được hình ảnh chất lượng cao.
 ---
 
-"Knobology" refers to the study and manipulation of the controls on an ultrasound machine. Optimization is the active process of adjusting these knobs to maximize diagnostic clarity.
+"Knobology" đề cập đến việc nghiên cứu và sử dụng thành thạo các nút điều khiển trên máy siêu âm. Tối ưu hóa là quá trình chủ động điều chỉnh các phím này để tối đa hóa độ rõ nét của hình ảnh chẩn đoán.
 
-## The Core Optimization Knobs
+## Các Phím Điều chỉnh Tối ưu hóa Cốt lõi
 
-To get the best possible image, a sonographer or clinical scanner must continuously adjust these five essential settings:
+Để có được hình ảnh tốt nhất có thể, người làm siêu âm phải liên tục điều chỉnh 5 thông số thiết yếu sau:
 
 ```mermaid
 flowchart TD
-  RawEchoes[Returning Echoes] --> PreAmplifier[1. Gain: Overall Amplification]
-  PreAmplifier --> DepthComp[2. Depth: Distance Visualized]
-  DepthComp --> Focus[3. Focus: Beam Lateral Resolution]
-  Focus --> TGC[4. TGC: Time Gain Compensation]
-  TGC --> DiagnosticImage[Final Crisp Clinical Image]
+  RawEchoes[Tín hiệu phản hồi thô] --> PreAmplifier[1. Gain: Khuếch đại toàn bộ]
+  PreAmplifier --> DepthComp[2. Depth: Độ sâu quan sát]
+  DepthComp --> Focus[3. Focus: Độ phân giải ngang của chùm tia]
+  Focus --> TGC[4. TGC: Bù trừ khuếch đại theo thời gian]
+  TGC --> DiagnosticImage[Hình ảnh lâm sàng sắc nét cuối cùng]
 ```
 
 ---
 
-### 1. Overall Gain
+### 1. Gain toàn phần (Overall Gain)
 
-Overall Gain amplifies all returning echo signals equally, regardless of the depth they originated from.
+Gain toàn phần khuếch đại tất cả các tín hiệu phản hồi (echo) trở về một cách đồng đều, bất kể chúng bắt nguồn từ độ sâu nào.
 
-- **Under-gained:** Image is too dark; real anatomical echoes can be missed.
-- **Over-gained:** Image is too bright (whitewashed); subtle lesions or borders are obliterated by acoustic noise.
+- **Thiếu Gain (Under-gained):** Hình ảnh quá tối; có thể bỏ sót các tín hiệu phản hồi thực tế của giải phẫu.
+- **Thừa Gain (Over-gained):** Hình ảnh quá sáng (bị lóa/trắng xóa); các tổn thương hoặc ranh giới tinh tế bị xóa nhòa bởi nhiễu âm thanh.
 
-### 2. Time-Gain Compensation (TGC)
+### 2. Bù trừ độ khuếch đại theo thời gian (TGC - Time-Gain Compensation)
 
-Because sound attenuates as it travels deeper, echoes from deep structures return much weaker than echoes from superficial structures. **TGC** allows you to adjust gain at specific depths.
+Vì sóng âm bị suy hao khi truyền vào sâu hơn, các tín hiệu phản hồi từ cấu trúc sâu trở về sẽ yếu hơn nhiều so với từ cấu trúc nông. **TGC** cho phép bạn điều chỉnh gain ở các độ sâu cụ thể.
 
-- Typically represented as a vertical column of sliding pods.
-- **Optimal Setup:** Adjust sliding pods into a smooth diagonal slope starting left (less amplification for shallow tissues) and moving right (greater amplification for deeper tissues).
+- Thường được biểu diễn dưới dạng một cột dọc gồm các thanh gạt (sliding pods).
+- **Cài đặt tối ưu:** Điều chỉnh các thanh gạt thành một đường chéo mượt mà bắt đầu từ bên trái (khuếch đại ít hơn cho mô nông) và hướng dần sang bên phải (khuếch đại nhiều hơn cho mô sâu hơn).
 
-### 3. Depth
+### 3. Độ sâu (Depth)
 
-Depth controls the field of view in the vertical plane.
+Độ sâu điều khiển trường quan sát (field of view) theo mặt phẳng thẳng đứng.
 
-- **Rule of Thumb:** Your target structure should occupy approximately **70-80% of the screen**.
-- **Too shallow:** You cannot see structures deep to your target (missing pathology).
-- **Too deep:** The target is too small to inspect, and frame rate drops because the machine wastes time waiting for echoes to return from unnecessary depths.
+- **Quy tắc vàng:** Cấu trúc mục tiêu cần khảo sát nên chiếm khoảng **70-80% màn hình**.
+- **Quá nông (Too shallow):** Bạn không thể nhìn thấy các cấu trúc nằm sâu hơn mục tiêu (bỏ sót bệnh lý).
+- **Quá sâu (Too deep):** Mục tiêu trở nên quá nhỏ để quan sát kỹ, và tốc độ khung hình (frame rate) bị giảm do máy mất thời gian chờ tín hiệu phản hồi trở về từ những độ sâu không cần thiết.
 
-### 4. Focus
+### 4. Tiêu điểm (Focus)
 
-Focus controls the lateral resolution by narrowing the ultrasound beam width at a specific depth.
+Focus kiểm soát độ phân giải ngang (lateral resolution) bằng cách thu hẹp chiều rộng chùm tia siêu âm tại một độ sâu cụ thể.
 
-- **Optimal Setup:** Place the focus marker **at or slightly below** the depth of your target structure.
-- Multiple focal zones can be used but will decrease the frame rate (temporal resolution).
+- **Cài đặt tối ưu:** Đặt dấu chỉ báo tiêu điểm (focus marker) **tại hoặc ngay dưới** độ sâu của cấu trúc mục tiêu.
+- Có thể sử dụng nhiều vùng tiêu điểm (multi-focus) nhưng điều này sẽ làm giảm tốc độ khung hình (độ phân giải thời gian).
 
 ---
 
-## Common Acoustic Artifacts
+## Các Nhiễu ảnh (Xảo ảnh) Thường gặp
 
-Artifacts are visual representations on the screen that do not correspond to actual anatomical structures. Recognising artifacts can prevent misdiagnoses.
+Xảo ảnh (Artifacts) là những hình ảnh hiển thị trên màn hình mà không tương ứng với các cấu trúc giải phẫu thực tế. Nhận biết được xảo ảnh giúp ngăn ngừa việc chẩn đoán sai.
 
 <Accordion>
-  <AccordionItem title="Acoustic Shadowing">
-    Occurs deep to a highly attenuating or reflecting structure (like bone, gallstones, or
-    calcifications). Sound waves cannot penetrate, leaving a completely dark (anechoic) void behind
-    the structure.
+  <AccordionItem title="Bóng lưng bên dưới (Acoustic Shadowing)">
+    Xảy ra ở phía sau một cấu trúc có độ suy hao hoặc phản xạ rất mạnh (như xương, sỏi mật, hoặc các
+    nốt vôi hóa). Sóng siêu âm không thể xuyên qua, để lại một khoảng trống hoàn toàn tối (trống âm)
+    phía sau cấu trúc đó.
   </AccordionItem>
-  <AccordionItem title="Acoustic Enhancement">
-    Occurs deep to a weakly attenuating structure (typically fluid-filled organs like the
-    gallbladder or urinary bladder). Since little energy is lost traveling through the fluid, the
-    echoes returning from the tissue behind it are artificially bright. This proves the structure is
-    cystic/fluid-filled!
+  <AccordionItem title="Tăng âm phía sau (Acoustic Enhancement)">
+    Xảy ra ở phía sau một cấu trúc có độ suy hao âm rất yếu (thường là các cơ quan chứa dịch như túi
+    mật hoặc bàng quang). Do mất rất ít năng lượng khi truyền qua dịch, các sóng âm phản hồi từ các
+    mô phía sau nó trở nên sáng hơn một cách nhân tạo. Điều này giúp chứng minh cấu trúc đó là dạng
+    nang/chứa dịch!
   </AccordionItem>
-  <AccordionItem title="Reverberation">
-    Occurs when a sound wave gets trapped bouncing back and forth between two highly reflective
-    parallel surfaces. Displays as multiple equally-spaced horizontal lines (e.g., A-lines in a
-    normal lung scan).
+  <AccordionItem title="Dội lại (Reverberation)">
+    Xảy ra khi sóng âm bị "bẫy" và nảy qua nảy lại giữa hai bề mặt song song có tính phản xạ cao.
+    Hiển thị dưới dạng nhiều đường ngang cách đều nhau (ví dụ: các đường A-line trong siêu âm phổi
+    bình thường).
   </AccordionItem>
-  <AccordionItem title="Mirror Image">
-    Occurs when the ultrasound beam hits a highly reflective curved boundary (like the diaphragm).
-    The sound bounces off the curve, hits a real structure, bounces back to the diaphragm, and
-    returns to the transducer. The machine thinks the path was linear and draws a duplicate
-    structure deep to the boundary.
+  <AccordionItem title="Hình ảnh soi gương (Mirror Image)">
+    Xảy ra khi chùm tia siêu âm gặp một ranh giới cong có tính phản xạ mạnh (như cơ hoành). Sóng âm
+    dội lại từ ranh giới cong, va vào một cấu trúc thực tế, dội ngược lại cơ hoành và trở về đầu dò.
+    Máy siêu âm giả định đường đi là thẳng và vẽ một cấu trúc giả đối xứng sâu hơn qua ranh giới đó.
   </AccordionItem>
 </Accordion>
