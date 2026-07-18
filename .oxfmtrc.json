@@ -12,7 +12,8 @@
     "**/.astro",
     "**/.netlify",
     "**/*.gen.*",
-    "**/.blume"
+    "**/.blume",
+    "bun.lock"
   ],
   "sortImports": {
     "groups": [

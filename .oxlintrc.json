@@ -24,6 +24,7 @@
     "**/.astro",
     "**/.netlify",
     "**/*.gen.*",
-    "**/.blume"
+    "**/.blume",
+    "bun.lock"
   ]
 }
