@@ -14,9 +14,7 @@ export default defineConfig({
 
   i18n: {
     defaultLocale: "vi",
-    locales: [
-      { code: "vi", label: "Tiếng Việt" },
-    ],
+    locales: [{ code: "vi", label: "Tiếng Việt" }],
     hideDefaultLocalePrefix: true,
   },
 
