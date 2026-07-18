@@ -1,90 +1,90 @@
 ---
-title: Ultrasound Physics
-description: Understand the physical principles behind acoustic wave propagation, attenuation, and reflection.
+title: Vật lý Siêu âm
+description: Hiểu các nguyên lý vật lý đằng sau sự truyền sóng âm, sự suy hao và sự phản xạ.
 ---
 
-To use ultrasound safely and effectively, you must understand the basic physics of sound wave propagation in human tissue.
+Để sử dụng siêu âm một cách an toàn và hiệu quả, bạn phải hiểu các nguyên lý vật lý cơ bản của sự truyền sóng âm trong mô người.
 
-## What is Ultrasound?
+## Siêu âm là gì?
 
-Ultrasound is any acoustic (sound) energy with a frequency above the upper limit of human hearing, which is **20,000 Hertz (20 kHz)**.
+Siêu âm là bất kỳ năng lượng âm thanh nào có tần số vượt quá giới hạn nghe được của con người, tức là trên **20.000 Hertz (20 kHz)**.
 
-In clinical diagnostics, we typically operate in the range of **2 Megahertz (MHz) to 20 Megahertz (MHz)**.
+Trong chẩn đoán lâm sàng, chúng ta thường làm việc trong dải tần số từ **2 Megahertz (MHz) đến 20 Megahertz (MHz)**.
 
-### Wave Characteristics
+### Đặc điểm của Sóng
 
-Sound waves are longitudinal, mechanical waves. They require a medium to travel (unlike electromagnetic waves) and consist of alternating cycles of:
+Sóng âm là sóng cơ học dọc. Chúng cần một môi trường để truyền đi (không giống như sóng điện từ) và bao gồm các chu kỳ luân phiên của:
 
-- **Compression:** High pressure, high density.
-- **Rarefaction:** Low pressure, low density.
+- **Sự nén (Compression):** Áp suất cao, mật độ cao.
+- **Sự giãn (Rarefaction):** Áp suất thấp, mật độ thấp.
 
 ```mermaid
 flowchart LR
-  Transducer[Transducer Crystal] -- Mechanical Vibrations --> Medium[Biological Tissue]
-  Medium --> Compression[Compression: High Pressure]
-  Medium --> Rarefaction[Rarefaction: Low Pressure]
+  Transducer[Tinh thể đầu dò] -- Rung động cơ học --> Medium[Mô sinh học]
+  Medium --> Compression[Nén: Áp suất cao]
+  Medium --> Rarefaction[Giãn: Áp suất thấp]
 ```
 
 ---
 
-## Key Principles of Propagation
+## Các Nguyên lý Truyền Sóng Cốt lõi
 
-### 1. Velocity (Speed of Sound)
+### 1. Vận tốc (Tốc độ truyền âm)
 
-The velocity of sound ($c$) is determined solely by the **medium** through which it travels. It is governed by two properties of the medium:
+Vận tốc truyền âm ($c$) được quyết định hoàn toàn bởi **môi trường** mà nó đi qua. Nó bị chi phối bởi hai thuộc tính của môi trường:
 
-- **Stiffness (Bulk Modulus):** As stiffness increases, velocity increases.
-- **Density:** As density increases, velocity decreases.
+- **Độ cứng (Sức cản nén - Bulk Modulus):** Độ cứng càng tăng thì vận tốc càng tăng.
+- **Mật độ (Khối lượng riêng):** Mật độ càng tăng thì vận tốc càng giảm.
 
-In human soft tissue, the average velocity of sound is assumed to be **1,540 m/s**.
+Trong mô mềm của con người, vận tốc trung bình của âm thanh được giả định là **1.540 m/s**.
 
-:::note[Velocity of Sound in Different Media]
-| Medium | Speed of Sound (m/s) |
+:::note[Tốc độ truyền âm trong các môi trường khác nhau]
+| Môi trường | Tốc độ truyền âm (m/s) |
 | :--- | :--- |
-| **Air** | 330 m/s |
-| **Water** | 1,480 m/s |
-| **Soft Tissue** (Average) | **1,540 m/s** |
-| **Bone** | 4,080 m/s |
+| **Không khí** | 330 m/s |
+| **Nước** | 1.480 m/s |
+| **Mô mềm** (Trung bình) | **1.540 m/s** |
+| **Xương** | 4.080 m/s |
 :::
 
-### 2. Acoustic Impedance
+### 2. Trở kháng âm
 
-Acoustic impedance ($Z$) is the resistance offered by a medium to the passage of sound waves. It is calculated as:
+Trở kháng âm ($Z$) là sức cản của môi trường đối với sự đi qua của sóng âm. Nó được tính bằng công thức:
 
 $$
 Z = \rho \times c
 $$
 
-Where:
+Trong đó:
 
-- $\rho$ is the density of the medium.
-- $c$ is the velocity of sound in the medium.
+- $\rho$ là mật độ của môi trường.
+- $c$ is vận tốc truyền âm trong môi trường đó.
 
-#### Reflection at Boundaries
+#### Phản xạ tại ranh giới (bề mặt phân cách)
 
-When sound travels through a boundary between two media with different acoustic impedances, a portion of the wave is **reflected** back to the transducer as an echo. The remainder of the wave is **transmitted** deeper.
+Khi sóng âm truyền qua ranh giới giữa hai môi trường có trở kháng âm khác nhau, một phần của sóng sẽ bị **phản xạ** ngược lại đầu dò dưới dạng tiếng vang (echo). Phần còn lại của sóng sẽ được **truyền tiếp** vào sâu hơn.
 
-- **Large Impedance Difference:** Highly reflective boundary (e.g., Soft tissue to Bone or Soft tissue to Air). This results in a strong echo and shadowing behind it.
-- **Small Impedance Difference:** Highly transmissive boundary (e.g., Liver to Kidney). Most of the wave passes through.
+- **Sự khác biệt trở kháng âm lớn:** Ranh giới phản xạ mạnh (ví dụ: Mô mềm sang Xương hoặc Mô mềm sang Không khí). Điều này tạo ra một tín hiệu phản hồi (echo) rất mạnh và bóng lưng phía sau nó.
+- **Sự khác biệt trở kháng âm nhỏ:** Ranh giới truyền qua cao (ví dụ: Gan sang Thận). Hầu hết sóng âm sẽ đi xuyên qua.
 
 ---
 
-## Attenuation
+## Sự suy hao (Sự giảm thế năng âm)
 
-Attenuation is the gradual loss of wave energy as it travels through a medium. It increases with:
+Sự suy hao là sự mất mát dần năng lượng của sóng âm khi nó truyền qua môi trường. Nó tăng lên theo:
 
-1. **Depth:** The further the sound travels, the more energy is lost.
-2. **Frequency:** Higher frequency sound attenuates much faster than lower frequency sound.
+1. **Độ sâu:** Sóng âm truyền càng xa thì năng lượng mất đi càng nhiều.
+2. **Tần số:** Sóng âm có tần số cao hơn sẽ suy hao nhanh hơn nhiều so với sóng âm có tần số thấp hơn.
 
 ```mermaid
 flowchart TD
-  EnergyLoss[Attenuation] --> Absorption[Absorption: Conversion to Heat]
-  EnergyLoss --> Reflection[Reflection: Scattering / Echos]
-  EnergyLoss --> Refraction[Refraction: Bending of Waves]
+  EnergyLoss[Suy hao] --> Absorption[Hấp thụ: Chuyển hóa thành nhiệt]
+  EnergyLoss --> Reflection[Phản xạ: Tán xạ / Tiếng vang]
+  EnergyLoss --> Refraction[Khúc xạ: Sóng bị bẻ cong]
 ```
 
-:::warning[The Trade-off]
+:::warning[Sự đánh đổi (Trade-off)]
 
-- **High Frequency (10 - 20 MHz):** Excellent spatial resolution but poor penetration (depth). Ideal for superficial structures (e.g., vessels, thyroid, nerves).
-- **Low Frequency (2 - 5 MHz):** Poor spatial resolution but excellent penetration. Ideal for deep structures (e.g., abdomen, cardiac, obstetrics).
+- **Tần số cao (10 - 20 MHz):** Độ phân giải không gian tuyệt vời nhưng độ đâm xuyên kém (nông). Lý tưởng cho các cấu trúc nông (ví dụ: mạch máu, tuyến giáp, dây thần kinh).
+- **Tần số thấp (2 - 5 MHz):** Độ phân giải không gian kém hơn nhưng độ đâm xuyên tuyệt vời. Lý tưởng cho các cấu trúc nằm sâu (ví dụ: ổ bụng, tim mạch, sản khoa).
   :::

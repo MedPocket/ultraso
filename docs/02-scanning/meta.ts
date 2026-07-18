@@ -1,7 +1,7 @@
 import { defineMeta } from "blume";
 
 export default defineMeta({
-  title: "Scanning Techniques",
+  title: "Kỹ thuật quét siêu âm",
   icon: "activity",
   order: 2,
   collapsed: false,
