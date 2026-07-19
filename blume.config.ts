@@ -20,15 +20,12 @@ export default defineConfig({
 
   seo: {
     og: {
-      fonts: ["Be Vietnam Pro", "Inter"],
+      fonts: ["Be Vietnam Pro"],
     },
   },
 
   theme: {
-    accent: {
-      light: "#000000",
-      dark: "#ffffff",
-    },
+    accent: "blue",
     radius: "md",
     mode: "system",
   },
