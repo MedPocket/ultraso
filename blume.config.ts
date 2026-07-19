@@ -2,7 +2,7 @@ import { defineConfig } from "blume";
 
 export default defineConfig({
   title: "Ultraso",
-  description: "Document for clinical ultrasound physics, scanning techniques, and applications.",
+  description: "Tài liệu về vật lý siêu âm lâm sàng, kỹ thuật quét và ứng dụng.",
 
   feedback: false,
 
@@ -16,6 +16,12 @@ export default defineConfig({
     defaultLocale: "vi",
     locales: [{ code: "vi", label: "Tiếng Việt" }],
     hideDefaultLocalePrefix: true,
+  },
+
+  seo: {
+    og: {
+      fonts: ["Be Vietnam Pro"],
+    },
   },
 
   theme: {
