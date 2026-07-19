@@ -28,6 +28,10 @@ export default defineConfig({
     accent: "blue",
     radius: "md",
     mode: "system",
+    fonts: {
+      body: "geist",
+      display: "geist",
+    },
   },
 
   deployment: {
