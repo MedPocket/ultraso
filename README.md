@@ -7,8 +7,8 @@
 To get started, make sure you have [Node.js](https://nodejs.org) and [Bun](https://bun.com) installed on your system. Then, follow these steps:
 
 ```bash
-git clone https://github.com/torn4dom4n/torn4dom4n.github.io
-cd torn4dom4n.github.io
+git clone https://github.com/MedPocket/ultraso
+cd ultraso
 bun install
 bun dev
 ```
