@@ -2,7 +2,7 @@ import { defineConfig } from "blume";
 
 export default defineConfig({
   title: "Ultraso",
-  description: "Document for clinical ultrasound physics, scanning techniques, and applications.",
+  description: "Tài liệu về vật lý siêu âm lâm sàng, kỹ thuật quét và ứng dụng.",
 
   feedback: false,
 
