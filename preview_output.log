@@ -1,0 +1,5 @@
+$ blume preview
+ astro  v7.1.1 ready in 14 ms
+┃ Local    http://localhost:4321/ultraso
+┃ Network  use --host to expose
+error: script "preview" exited with code 143
