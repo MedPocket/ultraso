@@ -20,7 +20,7 @@ export default defineConfig({
 
   seo: {
     og: {
-      fonts: ["Be Vietnam Pro"],
+      fonts: ["Geist"],
     },
   },
 
@@ -28,6 +28,10 @@ export default defineConfig({
     accent: "blue",
     radius: "md",
     mode: "system",
+    fonts: {
+      body: "geist",
+      display: "geist",
+    },
   },
 
   deployment: {
