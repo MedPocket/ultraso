@@ -20,7 +20,7 @@ export default defineConfig({
 
   seo: {
     og: {
-      fonts: ["Inter"],
+      fonts: ["Geist"],
     },
   },
 
@@ -29,8 +29,8 @@ export default defineConfig({
     radius: "md",
     mode: "system",
     fonts: {
-      body: "inter",
-      display: "inter",
+      body: "geist",
+      display: "geist",
     },
   },
 
