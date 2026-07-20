@@ -4,6 +4,6 @@ export default defineMeta({
   title: "Nguyên lý siêu âm cơ bản",
   icon: "book-open",
   order: 1,
-  collapsed: false,
-  pages: ["physics", "modes"],
+  collapsed: true,
+  pages: ["vat-ly-sieu-am", "modes"],
 });

@@ -4,6 +4,6 @@ export default defineMeta({
   title: "Kỹ thuật quét siêu âm",
   icon: "activity",
   order: 2,
-  collapsed: false,
-  pages: ["transducers", "knobology"],
+  collapsed: true,
+  pages: ["dau-do", "toi-uu-hinh-anh"],
 });
