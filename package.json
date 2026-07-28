@@ -10,7 +10,8 @@
     "preview": "blume preview",
     "lint": "oxlint",
     "fmt": "oxfmt",
-    "typecheck": "blume check"
+    "typecheck": "blume check",
+    "postinstall": "node scripts/patch-blume.js"
   },
   "dependencies": {
     "@fontsource/be-vietnam-pro": "^5.3.0",
