@@ -20,23 +20,23 @@ Tài liệu này quy định các nguyên tắc, chuẩn mực về nội dung, 
 Sử dụng định dạng in đậm (`**văn bản**`) một cách có chọn lọc để làm nổi bật các **từ khóa quan trọng**, các **ngưỡng số liệu siêu âm/lâm sàng có ý nghĩa**, hoặc **chỉ định/chống chỉ định mấu chốt**.
 
 - **Quy tắc:** Chỉ in đậm cụm từ hoặc số liệu cụ thể. **Không** in đậm toàn bộ câu hoặc cả dòng dài.
-- *Đúng:* Đường kính động mạch chủ bụng bình thường là **< 3 cm**.
-- *Sai:* **Đường kính động mạch chủ bụng bình thường là < 3 cm.**
+- _Đúng:_ Đường kính động mạch chủ bụng bình thường là **< 3 cm**.
+- _Sai:_ **Đường kính động mạch chủ bụng bình thường là < 3 cm.**
 
 ### In nghiêng (Italic)
 
 Sử dụng định dạng in nghiêng (`_văn bản_` hoặc `*văn bản*`) cho các trường hợp cụ thể sau:
 
 1. **Thuật ngữ tiếng Anh lâm sàng hoặc từ viết tắt quốc tế** đặt trong ngoặc đơn ở lần xuất hiện đầu tiên:
-   - *Ví dụ:* Siêu âm tại giường (_Point-of-Care Ultrasound_ - POCUS).
+   - _Ví dụ:_ Siêu âm tại giường (_Point-of-Care Ultrasound_ - POCUS).
 2. **Tên khoa học của tác nhân vi sinh** (vi khuẩn, virus, nấm...):
-   - *Ví dụ:* _Escherichia coli_, _Staphylococcus aureus_.
+   - _Ví dụ:_ _Escherichia coli_, _Staphylococcus aureus_.
 3. **Tên hoạt chất/tên thuốc gốc** (generic name) dạng chữ thường:
-   - *Ví dụ:* _lidocain_, _paracetamol_, _gel siêu âm_.
+   - _Ví dụ:_ _lidocain_, _paracetamol_, _gel siêu âm_.
 4. **Tên sách, chương sách hoặc hướng dẫn điều trị**:
-   - *Ví dụ:* _Rumack's Diagnostic Ultrasound_, _Phác đồ điều trị Siêu âm_.
+   - _Ví dụ:_ _Rumack's Diagnostic Ultrasound_, _Phác đồ điều trị Siêu âm_.
 5. **Chú thích bên dưới hình ảnh hoặc bảng biểu**:
-   - *Ví dụ:* _Hình "Mặt cắt dọc động mạch chủ bụng"._, _Bảng "Phân loại mức độ hẹp động mạch cảnh"._
+   - _Ví dụ:_ _Hình "Mặt cắt dọc động mạch chủ bụng"._, _Bảng "Phân loại mức độ hẹp động mạch cảnh"._
 
 ### Quy tắc Danh sách (Lists)
 
@@ -84,26 +84,28 @@ Sử dụng `1.`, `2.`, `3.` khi trình bày quy trình, các bước thực hi�
 ### Kí hiệu toán học và Đơn vị đo lường
 
 - **Phép so sánh:** Luôn thêm **một khoảng trắng** xung quanh các toán tử so sánh (`>`, `<`, `≥`, `≤`, `=`). Sử dụng kí hiệu chuẩn thay vì gõ dạng kí tự ghép.
-  - *Đúng:* `> 3 cm`, `≤ 5 mm`, `≥ 60 cm/s`.
-  - *Sai:* `>3 cm`, `≤5mm`, `>= 60cm/s`.
+  - _Đúng:_ `> 3 cm`, `≤ 5 mm`, `≥ 60 cm/s`.
+  - _Sai:_ `>3 cm`, `≤5mm`, `>= 60cm/s`.
 - **Đơn vị đo lường:** Luôn có **một khoảng trắng** giữa số lượng và đơn vị đo lường.
-  - *Đúng:* 5 MHz, 10 cm, 37 °C, 60 cm/s.
-  - *Sai:* 5MHz, 10cm, 37°C.
+  - _Đúng:_ 5 MHz, 10 cm, 37 °C, 60 cm/s.
+  - _Sai:_ 5MHz, 10cm, 37°C.
 - **Phần trăm:** Viết liền chữ số và dấu phần trăm `%` (không có khoảng trắng).
-  - *Đúng:* 50%, 95% CI.
-  - *Sai:* 50 %.
+  - _Đúng:_ 50%, 95% CI.
+  - _Sai:_ 50 %.
 - **Khoảng giá trị (Ranges):** Dùng dấu gạch nối `-` (hyphen) không có khoảng trắng hoặc dùng từ "đến".
-  - *Đúng:* 2 - 5 MHz, 5 đến 10 cm.
-  - *Sai:* 2- 5 MHz, 2-5MHz.
+  - _Đúng:_ 2 - 5 MHz, 5 đến 10 cm.
+  - _Sai:_ 2- 5 MHz, 2-5MHz.
 
 ### Quy tắc viết chữ số và chữ
 
 **Các trường hợp bắt buộc/khuyên dùng chữ:**
+
 - **Số đứng ở đầu câu:** Bắt buộc viết bằng chữ và viết hoa chữ cái đầu (ví dụ: "Ba bệnh nhân...", "Năm tần số đầu dò...").
 - **Các số nhỏ đại diện cho số lượng:** Trong văn mô tả, văn xuôi, giao tiếp thông thường (thường là từ 1 đến 9, ví dụ: "quét siêu âm ở ba mặt cắt chính").
 - **Các cụm từ cố định, thành ngữ, danh từ riêng hoặc từ chỉ thứ tự/tháng:** Ví dụ: "thứ tư", "tháng tư", "ngày một ngày hai".
 
 **Các trường hợp giữ nguyên dạng chữ số:**
+
 - **Ngày tháng năm cụ thể:** Ví dụ: `20/7/2026`, `ngày 5 tháng 8`.
 - **Số liệu thống kê, dữ liệu kỹ thuật, số đo lường, tần số, phần trăm, thời gian chính xác:** Ví dụ: `5 MHz`, `10%`, `15 phút`, `3.5 cm`.
 - **Chương/mục/điều khoản tài liệu:** Ví dụ: `Chương 3`, `Mục 2`.
@@ -112,14 +114,14 @@ Sử dụng `1.`, `2.`, `3.` khi trình bày quy trình, các bước thực hi�
 
 - **Dấu ngoặc kép:** Sử dụng dấu ngoặc kép thẳng `"`. Không dùng kí tự ngoặc kép cong hoặc thay thế khác.
 - **Dấu gạch chéo `/`:** Viết liền với các từ ở hai bên khi biểu thị sự lựa chọn hoặc tỷ lệ.
-  - *Đúng:* Đầu dò Convex/Linear, 120/80 mmHg.
-  - *Sai:* Convex / Linear.
+  - _Đúng:_ Đầu dò Convex/Linear, 120/80 mmHg.
+  - _Sai:_ Convex / Linear.
 - **Kí hiệu `&`:** Tránh sử dụng trong nội dung văn bản thông thường, hãy viết rõ từ "và". Chỉ sử dụng trong tên riêng hoặc tài liệu tham khảo chính thức.
 - **Mũi tên chỉ hướng/kết quả:** Sử dụng các kí tự Unicode chuẩn `→`, `←`, `↔` thay vì sử dụng kí tự ghép như `->`, `<-`.
 - **Ký tự Hy Lạp:** Sử dụng ký tự Unicode chuẩn (ví dụ: `α` (Alpha), `β` (Beta), `γ` (Gamma), `δ` (Delta), `μ` (Micro)...). Không viết phiên âm tiếng Việt (như mi-crô-mét).
 - **Chỉ số trên/dưới (Subscript/Superscript):** Để đảm bảo định dạng Markdown được hiển thị chính xác trên Blume và không bị lỗi biên dịch, **phải sử dụng trực tiếp kí tự Unicode cho chỉ số trên và dưới**. Tránh sử dụng thẻ HTML (`<sup>`, `<sub>`) hoặc kí tự caret (`^`).
-  - *Chỉ số trên (Superscript):* `⁰` `¹` `²` `³` `⁴` `⁵` `⁶` `⁷` `⁸` `⁹` `⁺` `⁻`. (Ví dụ: cm², m/s²).
-  - *Chỉ số dưới (Subscript):* `₀` `₁` `₂` `₃` `₄` `₅` `₆` `₇` `₈` `₉`. (Ví dụ: CO₂).
+  - _Chỉ số trên (Superscript):_ `⁰` `¹` `²` `³` `⁴` `⁵` `⁶` `⁷` `⁸` `⁹` `⁺` `⁻`. (Ví dụ: cm², m/s²).
+  - _Chỉ số dưới (Subscript):_ `₀` `₁` `₂` `₃` `₄` `₅` `₆` `₇` `₈` `₉`. (Ví dụ: CO₂).
 
 ---
 
@@ -127,14 +129,14 @@ Sử dụng `1.`, `2.`, `3.` khi trình bày quy trình, các bước thực hi�
 
 - **Ưu tiên Tiếng Việt lâm sàng:** Sử dụng thuật ngữ chuyên môn Tiếng Việt chuẩn theo tài liệu của Bộ Y tế hoặc sách giáo trình Trường Đại học Y Dược TP. HCM, Đại học Y Hà Nội.
 - **Thuật ngữ Tiếng Anh đồng hành:** Cung cấp thuật ngữ gốc Tiếng Anh viết nghiêng trong ngoặc đơn ở lần xuất hiện đầu tiên của thuật ngữ khó hoặc dễ gây nhầm lẫn.
-  - *Ví dụ:* Trở kháng âm (_Acoustic impedance_).
+  - _Ví dụ:_ Trở kháng âm (_Acoustic impedance_).
 - **Quy trình Viết tắt:**
   - Lần xuất hiện đầu tiên: Viết đầy đủ thuật ngữ tiếng Việt, kèm theo từ viết tắt trong ngoặc đơn.
   - Các lần xuất hiện sau: Sử dụng trực tiếp từ viết tắt.
-  - *Ví dụ:* Siêu âm hội chẩn tại giường (POCUS) là... Kỹ thuật POCUS giúp...
+  - _Ví dụ:_ Siêu âm hội chẩn tại giường (POCUS) là... Kỹ thuật POCUS giúp...
 - **Tên thuốc và Hoạt chất:**
   - Luôn sử dụng tên hoạt chất gốc (Generic name), viết bằng chữ thường và in nghiêng.
-  - *Ví dụ:* _lidocain_, _gel siêu âm_.
+  - _Ví dụ:_ _lidocain_, _gel siêu âm_.
 
 ---
 
@@ -145,10 +147,10 @@ Sử dụng `1.`, `2.`, `3.` khi trình bày quy trình, các bước thực hi�
 Để duy trì tính di động, độc lập và dễ quản lý của từng chủ đề tài liệu:
 
 - **Vị trí ảnh:** Tất cả hình ảnh minh họa cho một bài viết hoặc danh mục phải được lưu trữ trong thư mục con local có tên `_images/` nằm cùng cấp với bài viết đó.
-  - *Đúng:* `docs/01-co-ban/_images/vat-ly-sieu-am/tro-khang-am.png`
-  - *Sai:* `public/images/tro-khang-am.png`
+  - _Đúng:_ `docs/01-co-ban/_images/vat-ly-sieu-am/tro-khang-am.png`
+  - _Sai:_ `public/images/tro-khang-am.png`
 - **Đường dẫn trong Frontmatter & Nội dung:** Mọi liên kết nội bộ khai báo trong Frontmatter (ví dụ: các hành động nút bấm) hoặc liên kết giữa các trang phải sử dụng **đường dẫn tương đối** (bắt đầu bằng `./` hoặc `../`) để tránh lỗi khi triển khai dự án trên các base path khác nhau (như GitHub Pages `/ultraso` hoặc Netlify `/`).
-  - *Ví dụ:* `href: ./vat-ly-sieu-am` thay vì `href: /co-ban/vat-ly-sieu-am`.
+  - _Ví dụ:_ `href: ./vat-ly-sieu-am` thay vì `href: /co-ban/vat-ly-sieu-am`.
 
 ### Cấu trúc Frontmatter chuẩn
 
@@ -171,8 +173,8 @@ description: Tóm tắt 1 câu định hướng nội dung bài viết phục v�
 - **Giới hạn Heading:** Khuyến khích tối đa chỉ dùng đến H3 (###). H4 (####) chỉ dùng khi thực sự cần thiết để chia nhỏ các ý phức tạp. Tuyệt đối **không sử dụng H5, H6.**
 - **Giới hạn List:** Danh sách chỉ lồng tối đa **2 cấp** (1 cấp cha, 1 cấp con).
 - **Quy tắc phối hợp Heading - List:** Không vượt quá 4 mức độ phân cấp (tính từ H2) đối với bất kỳ đoạn nội dung nào.
-  - *Cấu trúc tối ưu (Khuyên dùng):* `H2` → `H3` → `List cấp 1` → `List cấp 2`.
-  - *Nếu đã sử dụng đến H4:* Phía dưới H4 chỉ được dùng **List 1 cấp** (không lồng nhau).
+  - _Cấu trúc tối ưu (Khuyên dùng):_ `H2` → `H3` → `List cấp 1` → `List cấp 2`.
+  - _Nếu đã sử dụng đến H4:_ Phía dưới H4 chỉ được dùng **List 1 cấp** (không lồng nhau).
 
 ### Cấu trúc bài giảng/hướng dẫn siêu âm chuẩn hóa
 
@@ -199,25 +201,25 @@ Mỗi bài viết hướng dẫn siêu âm/mặt cắt cần tuân theo cấu tr
 
 - Cú pháp chèn ảnh sử dụng đường dẫn tương đối: `![Mô tả ngắn gọn alt-text](./_images/tên-thư-mục/tên-ảnh.png)`
 - **Chú thích ảnh bắt buộc:** Phải đặt ngay bên dưới hoặc bên trên ảnh, viết nghiêng và đặt trong ngoặc kép:
-  - *Ví dụ:* `_Hình "Mặt cắt dọc động mạch chủ bụng thượng vị"._`
+  - _Ví dụ:_ `_Hình "Mặt cắt dọc động mạch chủ bụng thượng vị"._`
 
 ### Bảng biểu (Tables)
 
 - Sử dụng bảng Markdown để so sánh hoặc hệ thống hóa dữ liệu số lượng phức tạp.
 - **Chú thích bảng bắt buộc:** Đặt ngay phía trên bảng biểu, viết nghiêng và đặt trong ngoặc kép:
-  - *Ví dụ:* `_Bảng "Các mức độ hẹp động mạch cảnh theo vận tốc đỉnh tâm thu"._`
+  - _Ví dụ:_ `_Bảng "Các mức độ hẹp động mạch cảnh theo vận tốc đỉnh tâm thu"._`
 
 **Ví dụ trình bày:**
 
 ```md
 _Bảng "Tiêu chuẩn chẩn đoán phình động mạch chủ bụng"._
 
-| Đường kính động mạch chủ bụng (cm) | Phân loại mức độ | Khuyến cáo theo dõi |
-| ---------------------------------- | ---------------- | ------------------- |
-| < 3.0                              | Bình thường      | Không cần theo dõi  |
-| 3.0 - 4.0                          | Nhỏ              | Siêu âm mỗi 12 tháng|
-| 4.0 - 5.4                          | Trung bình       | Siêu âm mỗi 6 tháng |
-| ≥ 5.5                              | Lớn              | Chỉ định phẫu thuật |
+| Đường kính động mạch chủ bụng (cm) | Phân loại mức độ | Khuyến cáo theo dõi  |
+| ---------------------------------- | ---------------- | -------------------- |
+| < 3.0                              | Bình thường      | Không cần theo dõi   |
+| 3.0 - 4.0                          | Nhỏ              | Siêu âm mỗi 12 tháng |
+| 4.0 - 5.4                          | Trung bình       | Siêu âm mỗi 6 tháng  |
+| ≥ 5.5                              | Lớn              | Chỉ định phẫu thuật  |
 ```
 
 ### Hộp thông tin nổi bật (Asides/Callouts)
