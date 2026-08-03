@@ -5,13 +5,13 @@
 The project uses the [**Bun**](https://bun.com) package manager and the [**Blume**](https://useblume.dev) documentation framework (built on Astro and Vite).
 
 ```bash
-bun install      # Install dependencies
-bun run dev      # Run dev server
-bun run lint     # Lint codebase
-bun run fmt      # Format code
-bun run typecheck# Check types
-bun run build    # Build static site
-bun run preview  # Preview build
+bun install       # Install dependencies
+bun run dev       # Run dev server
+bun run lint      # Lint codebase
+bun run fmt       # Format code
+bun run typecheck # Check types
+bun run build     # Build static site
+bun run preview   # Preview build
 ```
 
 ## Documentation
