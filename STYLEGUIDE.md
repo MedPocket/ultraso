@@ -146,10 +146,10 @@ Sử dụng `1.`, `2.`, `3.` khi trình bày quy trình, các bước thực hi�
 
 Để duy trì tính di động, độc lập và dễ quản lý của từng chủ đề tài liệu:
 
-- **Vị trí ảnh:** Tất cả hình ảnh minh họa cho một bài viết hoặc danh mục phải được lưu trữ trong thư mục con local có tên `_images/` nằm cùng cấp với bài viết đó.
-  - _Đúng:_ `docs/01-co-ban/_images/vat-ly-sieu-am/tro-khang-am.png`
-  - _Sai:_ `public/images/tro-khang-am.png`
-- **Đường dẫn trong Frontmatter & Nội dung:** Mọi liên kết nội bộ khai báo trong Frontmatter (ví dụ: các hành động nút bấm) hoặc liên kết giữa các trang phải sử dụng **đường dẫn tương đối** (bắt đầu bằng `./` hoặc `../`) để tránh lỗi khi triển khai dự án trên các base path khác nhau (như GitHub Pages `/ultraso` hoặc Netlify `/`).
+- **Vị trí ảnh:** Tất cả hình ảnh minh họa phải được lưu trữ trong thư mục `assets/` nằm ở thư mục gốc (root) của dự án. Hãy giữ nguyên cấu trúc thư mục của bài viết tương ứng trong `assets/` để dễ quản lý.
+  - _Đúng:_ `assets/01-co-ban/vat-ly-sieu-am/tro-khang-am.png`
+  - _Sai:_ `docs/01-co-ban/_images/vat-ly-sieu-am/tro-khang-am.png`
+- **Đường dẫn trong Frontmatter & Nội dung:** Mọi liên kết nội bộ khai báo trong Frontmatter (ví dụ: các hành động nút bấm) hoặc liên kết giữa các trang phải sử dụng **đường dẫn tương đối** (bắt đầu bằng `./` hoặc `../`) để tránh lỗi khi triển khai dự án trên các base path khác nhau (như GitHub Pages `/ultraso` or Netlify `/`).
   - _Ví dụ:_ `href: ./vat-ly-sieu-am` thay vì `href: /co-ban/vat-ly-sieu-am`.
 
 ### Cấu trúc Frontmatter chuẩn
@@ -199,7 +199,7 @@ Mỗi bài viết hướng dẫn siêu âm/mặt cắt cần tuân theo cấu tr
 
 ### Hình ảnh (Pictures/Images)
 
-- Cú pháp chèn ảnh sử dụng đường dẫn tương đối: `![Mô tả ngắn gọn alt-text](./_images/tên-thư-mục/tên-ảnh.png)`
+- Cú pháp chèn ảnh sử dụng đường dẫn tương đối trỏ đến thư mục `assets` gốc: `![Mô tả ngắn gọn alt-text](../../assets/tên-thành-phần/tên-bài/tên-ảnh.png)`
 - **Chú thích ảnh bắt buộc:** Phải đặt ngay bên dưới hoặc bên trên ảnh, viết nghiêng và đặt trong ngoặc kép:
   - _Ví dụ:_ `_Hình "Mặt cắt dọc động mạch chủ bụng thượng vị"._`
 
