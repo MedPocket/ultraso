@@ -1,5 +1,7 @@
 # Ultraso
 
+[![GitHub Pages](https://github.com/MedPocket/ultraso/actions/workflows/pages.yml/badge.svg)](https://medpocket.github.io/ultraso)
+
 **Ultraso** is built using the [**Blume**](https://useblume.dev) documentation framework (powered by Astro and Vite).
 
 ## Develop locally
