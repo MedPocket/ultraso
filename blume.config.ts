@@ -29,8 +29,8 @@ export default defineConfig({
     radius: "md",
     mode: "system",
     fonts: {
-      display: { name: "Be Vietnam Pro" },
-      body: { name: "Be Vietnam Pro" },
+      display: { name: "Be Vietnam Pro", provider: "fontsource", },
+      body: { name: "Be Vietnam Pro", provider: "fontsource", },
     },
   },
 
