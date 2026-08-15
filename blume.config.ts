@@ -1,45 +1,39 @@
 import { defineConfig } from "blume";
 
 export default defineConfig({
-  title: "Ultraso",
-  description: "Tài liệu về siêu âm lâm sàng.",
-
-  feedback: false,
-
-  github: {
-    owner: "MedPocket",
-    repo: "ultraso",
-    branch: "main",
-  },
-
-  i18n: {
-    defaultLocale: "vi",
-    locales: [{ code: "vi", label: "Tiếng Việt" }],
-    hideDefaultLocalePrefix: true,
-  },
-
-  seo: {
-    og: {
-      site: false,
-    },
-  },
-
-  theme: {
-    accent: "blue",
-    radius: "md",
-    mode: "system",
-    fonts: {
-      display: { name: "Be Vietnam Pro", provider: "fontsource" },
-      body: { name: "Be Vietnam Pro", provider: "fontsource" },
-    },
-  },
-
   deployment: {
+    base: process.env.NETLIFY === "true" ? "/" : "/ultraso",
     output: "static",
     site:
       process.env.NETLIFY === "true"
         ? process.env.URL || "https://ultraso.netlify.app"
         : "https://medpocket.github.io",
-    base: process.env.NETLIFY === "true" ? "/" : "/ultraso",
   },
+  description: "Tài liệu về siêu âm lâm sàng.",
+  feedback: false,
+  github: {
+    branch: "main",
+    owner: "MedPocket",
+    repo: "ultraso",
+  },
+  i18n: {
+    defaultLocale: "vi",
+    hideDefaultLocalePrefix: true,
+    locales: [{ code: "vi", label: "Tiếng Việt" }],
+  },
+  seo: {
+    og: {
+      site: false,
+    },
+  },
+  theme: {
+    accent: "blue",
+    fonts: {
+      body: { name: "Be Vietnam Pro", provider: "fontsource" },
+      display: { name: "Be Vietnam Pro", provider: "fontsource" },
+    },
+    mode: "system",
+    radius: "md",
+  },
+  title: "Ultraso",
 });

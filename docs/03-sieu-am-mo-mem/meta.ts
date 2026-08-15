@@ -1,9 +1,9 @@
 import { defineMeta } from "blume";
 
 export default defineMeta({
-  title: "Siêu âm Mô mềm",
+  collapsed: true,
   icon: "layers",
   order: 3,
-  collapsed: true,
   pages: ["tong-quan"],
+  title: "Siêu âm Mô mềm",
 });
