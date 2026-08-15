@@ -234,14 +234,17 @@ Sử dụng cú pháp Blume Asides để phân loại thông tin cảnh báo k�
 **Ví dụ:**
 
 ```md
-:::danger Nếu phát hiện đường kính túi phình động mạch chủ bụng ≥ 5.5 cm hoặc có dấu hiệu tụ máu thành sau, hãy chuyển cấp cứu ngoại khoa mạch máu ngay lập tức vì nguy cơ vỡ cực kỳ cao. :::
+:::danger
+Nếu phát hiện đường kính túi phình động mạch chủ bụng ≥ 5.5 cm hoặc có dấu hiệu tụ máu thành sau, hãy chuyển cấp cứu ngoại khoa mạch máu ngay lập tức vì nguy cơ vỡ cực kỳ cao.
+:::
 ```
 
 ---
 
 ## 7. Tài liệu tham khảo (References)
 
-Danh sách tài liệu tham khảo phải được chuẩn hóa theo cấu trúc định dạng nhất quán: `Tên tổ chức/Tác giả (Năm) - Tên bài viết/Tên sách in nghiêng`.
+Danh sách tài liệu tham khảo phải được chuẩn hóa theo cấu trúc định dạng nhất quán:
+`Tên tổ chức/Tác giả (Năm) - Tên bài viết/Tên sách in nghiêng`.
 
 - **Quy tắc:**
   - Sắp xếp theo thứ tự ưu tiên: Tài liệu trong nước (Bộ Y tế) trước, tài liệu quốc tế (AIUM, ISUOG, WFUMB, ACR, các sách chuẩn mực...) sau.
