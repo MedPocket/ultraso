@@ -119,9 +119,6 @@ Sử dụng `1.`, `2.`, `3.` khi trình bày quy trình, các bước thực hi�
 - **Kí hiệu `&`:** Tránh sử dụng trong nội dung văn bản thông thường, hãy viết rõ từ "và". Chỉ sử dụng trong tên riêng hoặc tài liệu tham khảo chính thức.
 - **Mũi tên chỉ hướng/kết quả:** Sử dụng các kí tự Unicode chuẩn `→`, `←`, `↔` thay vì sử dụng kí tự ghép như `->`, `<-`.
 - **Ký tự Hy Lạp:** Sử dụng ký tự Unicode chuẩn (ví dụ: `α` (Alpha), `β` (Beta), `γ` (Gamma), `δ` (Delta), `μ` (Micro)...). Không viết phiên âm tiếng Việt (như mi-crô-mét).
-- **Chỉ số trên/dưới (Subscript/Superscript):** Để đảm bảo định dạng Markdown được hiển thị chính xác trên Blume và không bị lỗi biên dịch, **phải sử dụng trực tiếp kí tự Unicode cho chỉ số trên và dưới**. Tránh sử dụng thẻ HTML (`<sup>`, `<sub>`) hoặc kí tự caret (`^`).
-  - _Chỉ số trên (Superscript):_ `⁰` `¹` `²` `³` `⁴` `⁵` `⁶` `⁷` `⁸` `⁹` `⁺` `⁻`. (Ví dụ: cm², m/s²).
-  - _Chỉ số dưới (Subscript):_ `₀` `₁` `₂` `₃` `₄` `₅` `₆` `₇` `₈` `₉`. (Ví dụ: CO₂).
 
 ---
 

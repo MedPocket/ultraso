@@ -5,5 +5,5 @@ export default defineMeta({
   icon: "layers",
   order: 3,
   collapsed: true,
-  pages: ["tong-quan"],
+  pages: ["tong-quan", "dau-tinh-hoan-cap"],
 });
