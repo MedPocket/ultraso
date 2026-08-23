@@ -141,6 +141,20 @@ Sử dụng `1.`, `2.`, `3.` khi trình bày quy trình, các bước thực hi�
 
 ---
 
+### Công thức toán học và Kí hiệu LaTeX
+
+- Để đảm bảo tính đồng nhất và hiển thị chính xác trên nền tảng Blume, **mọi biểu thức toán học, công thức hoặc kí hiệu LaTeX (kể cả inline) phải sử dụng cú pháp dấu đô-la kép `97874...97874`**. Tránh sử dụng dấu đô-la đơn `$...`$.
+  - _Đúng (Inline LaTeX):_ `97874\rightarrow97874`, `97874RI < 0.7097874`, `978740.62 - 0.6897874`, `97874Z = \rho \times c97874`.
+  - _Đúng (Block LaTeX):_
+    ```latex
+    97874
+    Z = \rho \times c
+    97874
+    ```
+  - _Sai:_ `$\rightarrow$`, ` < 0.70$`, `-bash.62 - 0.68$`.
+
+---
+
 ## 4. Thuật ngữ Y khoa & Viết tắt
 
 - **Ưu tiên Tiếng Việt lâm sàng:** Sử dụng thuật ngữ chuyên môn Tiếng Việt chuẩn theo tài liệu của Bộ Y tế hoặc sách giáo trình Trường Đại học Y Dược TP. HCM, Đại học Y Hà Nội.
