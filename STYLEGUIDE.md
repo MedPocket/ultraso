@@ -125,6 +125,22 @@ Sử dụng `1.`, `2.`, `3.` khi trình bày quy trình, các bước thực hi�
 
 ---
 
+### Công thức toán học và Kí hiệu LaTeX
+
+- Để đảm bảo tính đồng nhất và hiển thị chính xác trên nền tảng Blume, **mọi biểu thức toán học, công thức hoặc kí hiệu LaTeX (kể cả inline) phải sử dụng cú pháp dấu đô-la kép **. Không sử dụng dấu đô-la đơn .
+  - _Đúng:_ , , , .
+  - _Sai:_ , , .
+
+---
+
+### Công thức toán học và Kí hiệu LaTeX
+
+- Để đảm bảo tính đồng nhất và hiển thị chính xác trên nền tảng Blume, **mọi biểu thức toán học, công thức hoặc kí hiệu LaTeX (kể cả inline) phải sử dụng cú pháp dấu đô-la kép **. Không sử dụng dấu đô-la đơn .
+  - _Đúng:_ , , , .
+  - _Sai:_ , , .
+
+---
+
 ## 4. Thuật ngữ Y khoa & Viết tắt
 
 - **Ưu tiên Tiếng Việt lâm sàng:** Sử dụng thuật ngữ chuyên môn Tiếng Việt chuẩn theo tài liệu của Bộ Y tế hoặc sách giáo trình Trường Đại học Y Dược TP. HCM, Đại học Y Hà Nội.
