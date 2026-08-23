@@ -139,19 +139,19 @@ Cần cẩn trọng tránh nhầm lẫn TAPVR với các hình thái bất thư�
 
 Hướng xử trí bất thường hồi lưu tĩnh mạch phổi phụ thuộc vào việc phát hiện trước sinh hay sau sinh, cũng như sự hiện diện của tắc nghẽn đường về tĩnh mạch.
 
-```
-                  [Chẩn đoán TAPVR]
-                          │
-          ┌───────────────┴───────────────┐
-          ▼                               ▼
-[TAPVR Có Tắc Nghẽn]            [TAPVR Không Tắc Nghẽn]
-  (Vận tốc > 1.5 - 2.0 m/s)       (Vận tốc < 1.2 m/s)
-          │                               │
-          ▼                               ▼
-• Cấp cứu sơ sinh lập tức.       • Duy trì ổn định nội khoa.
-• Đặt nội khí quản, thông khí.    • Siêu âm theo dõi sát.
-• CHỐNG CHỈ ĐỊNH Prostaglandin.  • Phẫu thuật chương trình
-• Phẫu thuật sửa chữa khẩn cấp.    (trong vài ngày/tuần đầu).
+```mermaid
+flowchart TD
+    Diagnosis[Chẩn đoán TAPVR] --> Obstructed[TAPVR Có Tắc Nghẽn<br/>Vận tốc > 1.5 - 2.0 m/s]
+    Diagnosis --> Unobstructed[TAPVR Không Tắc Nghẽn<br/>Vận tốc < 1.2 m/s]
+
+    Obstructed --> ObsAction1[Cấp cứu sơ sinh lập tức]
+    Obstructed --> ObsAction2[Đặt nội khí quản & thông khí]
+    Obstructed --> ObsAction3[CHỐNG CHỈ ĐỊNH Prostaglandin PGE1]
+    Obstructed --> ObsAction4[Phẫu thuật sửa chữa khẩn cấp]
+
+    Unobstructed --> UnobsAction1[Duy trì ổn định nội khoa]
+    Unobstructed --> UnobsAction2[Siêu âm theo dõi sát]
+    Unobstructed --> UnobsAction3[Phẫu thuật chương trình trong vài ngày/tuần đầu]
 ```
 
 1. **Xử trí ban đầu cho TAPVR có tắc nghẽn (Cấp cứu ngoại khoa):**
