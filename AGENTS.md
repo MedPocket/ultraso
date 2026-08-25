@@ -1,4 +1,4 @@
-# Agents Guide
+# Instructions for AI agents
 
 ## Project Structure
 
@@ -6,7 +6,7 @@
 .
 ├── assets/             # Images and visual media assets for docs articles
 ├── docs/               # Documentation articles (Markdown / MDX)
-│   ├── 01-co-ban/      # Section 1: Basic Ultrasound Principles
+│   ├── 01-co-ban/      # Section 1
 │   │   ├── 01-vat-ly-sieu-am.mdx
 │   │   ├── 02-modes.mdx
 │   │   └── meta.ts     # Folder configuration (title, icon, order...)
@@ -19,7 +19,7 @@
 └── blume.config.ts     # Blume site configuration
 ```
 
-## Documentation & Framework Reference
+## Documentation
 
 - **Blume Documentation:** Refer to [https://useblume.dev/docs](https://useblume.dev/docs) whenever guidance on Blume components, navigation, or features is needed.
 
@@ -36,5 +36,4 @@ bun run build     # Build static site
 
 ## Authoring Rules
 
-- Follow [**STYLEGUIDE.md**](./STYLEGUIDE.md) for all document formatting, AMA style standards, medical terminology, and document structure.
-- Prefix page files with numbers (e.g., `01-*.mdx`, `02-*.mdx`) so Blume sorts them automatically. Do **not** specify `pages` arrays in `meta.ts`.
+- Follow [**STYLEGUIDE.md**](./STYLEGUIDE.md) for all document formatting, style standards, medical terminology, and document structure.
