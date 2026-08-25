@@ -1,20 +1,20 @@
 ---
 title: Vật lý Siêu âm
-description: Hiểu các nguyên lý vật lý đằng sau sự truyền sóng âm, sự suy hao và sự phản xạ.
+description: Tổng quan về nguyên lý vật lý truyền sóng âm, sự suy hao và trở kháng âm trong chẩn đoán y khoa.
 ---
 
-Để sử dụng siêu âm một cách an toàn và hiệu quả, bạn phải hiểu các nguyên lý vật lý cơ bản của sự truyền sóng âm trong mô người.
+Để sử dụng siêu âm một cách an toàn và hiệu quả trong thực hành lâm sàng, việc nắm vững các nguyên lý vật lý cơ bản của sự truyền sóng âm trong mô người là yêu cầu tiên quyết.
 
-## Siêu âm là gì?
+## Khái niệm Siêu âm
 
-Siêu âm là bất kỳ năng lượng âm thanh nào có tần số vượt quá giới hạn nghe được của con người, tức là trên **20.000 Hertz (20 kHz)**.
+Siêu âm là năng lượng âm thanh có tần số vượt quá giới hạn nghe được của tai người, tức là lớn hơn **20.000 Hz (20 kHz)**.
 
-Trong chẩn đoán lâm sàng, chúng ta thường làm việc trong dải tần số từ **2 Megahertz (MHz) đến 20 Megahertz (MHz)**.
+Trong chẩn đoán y khoa, tần số thường được sử dụng dao động trong dải từ **2 MHz đến 20 MHz**.
 
-**Bản chất của Sóng Siêu âm** là sóng cơ học dọc. Chúng cần một môi trường để truyền đi (không giống như sóng điện từ) và bao gồm các chu kỳ luân phiên của:
+**Bản chất của sóng siêu âm** là sóng cơ học dọc. Chúng cần môi trường vật chất để truyền đi và bao gồm các chu kỳ luân phiên của:
 
-- **Sự nén (Compression):** Áp suất cao, mật độ cao.
-- **Sự giãn (Rarefaction):** Áp suất thấp, mật độ thấp.
+- **Sự nén (Compression):** Vùng áp suất cao, mật độ mô cao.
+- **Sự giãn (Rarefaction):** Vùng áp suất thấp, mật độ mô thấp.
 
 ```mermaid
 flowchart LR
@@ -27,64 +27,58 @@ flowchart LR
 
 ## Các Nguyên lý Truyền Sóng Cốt lõi
 
-### 1. Vận tốc (Tốc độ truyền âm)
+### 1. Vận tốc Truyền âm
 
-Vận tốc truyền âm ($c$) được quyết định hoàn toàn bởi **môi trường** mà nó đi qua. Nó bị chi phối bởi hai thuộc tính của môi trường:
+Vận tốc truyền âm ($c$) được quyết định bởi đặc tính của môi trường mà sóng âm đi qua, chi phối bởi 2 yếu tố:
 
-- **Độ cứng (Sức cản nén - Bulk Modulus):** Độ cứng càng tăng thì vận tốc càng tăng.
-- **Mật độ (Khối lượng riêng):** Mật độ càng tăng thì vận tốc càng giảm.
+- **Độ cứng (Bulk Modulus):** Độ cứng của môi trường càng tăng thì vận tốc truyền âm càng tăng.
+- **Mật độ (Density):** Mật độ môi trường càng tăng thì vận tốc truyền âm càng giảm.
 
-Trong mô mềm của con người, vận tốc trung bình của âm thanh được giả định là **1.540 m/s**.
+Trong mô mềm của cơ thể người, vận tốc truyền âm trung bình được quy ước chuẩn là **1540 m/s**.
 
-:::note[Tốc độ truyền âm trong các môi trường khác nhau]
 | Môi trường | Tốc độ truyền âm (m/s) |
 | :--- | :--- |
-| **Không khí** | 330 m/s |
-| **Nước** | 1.480 m/s |
-| **Mô mềm** (Trung bình) | **1.540 m/s** |
-| **Xương** | 4.080 m/s |
+| **Không khí** | 330 |
+| **Nước** | 1480 |
+| **Mô mềm** (Trung bình) | **1540** |
+| **Xương** | 4080 |
 
-:::
+### 2. Trở kháng Âm
 
-### 2. Trở kháng âm
-
-Trở kháng âm ($$Z$$) là sức cản của môi trường đối với sự đi qua của sóng âm. Nó được tính bằng công thức:
+Trở kháng âm ($Z$) đại diện cho sức cản của môi trường đối với sự truyền đi của sóng âm, tính bằng công thức:
 
 $$
 Z = \rho \times c
 $$
 
 Trong đó:
+- $\rho$ là mật độ của môi trường.
+- $c$ là vận tốc truyền âm trong môi trường đó.
 
-- $$\rho$$ là mật độ của môi trường.
-- $$c$$ is vận tốc truyền âm trong môi trường đó.
+#### Phản xạ tại Bề mặt Phân cách
 
-#### Phản xạ tại bề mặt phân cách
+Khi chùm siêu âm đi qua mặt phân cách giữa 2 môi trường có trở kháng âm khác nhau ($Z_1 \neq Z_2$), một phần năng lượng âm sẽ phản xạ ngược về đầu dò tạo thành tín hiệu hồi âm (echo), phần còn lại tiếp tục truyền sâu vào lớp mô phía dưới.
 
-Khi chùm siêu âm truyền qua mặt phân cách giữa hai môi trường có trở kháng âm khác nhau ($$Z_1 \neq Z_2$$), một phần năng lượng âm sẽ phản xạ ngược lại đầu dò tạo thành tín hiệu hồi âm (echo), phần năng lượng còn lại sẽ khúc xạ/truyền tiếp vào lớp mô sâu hơn.
-
-Chênh lệch trở kháng âm RẤT LỚN ($$\Delta Z$$ lớn): Phản xạ gần như toàn bộ chùm âm. Ví dụ: Giao diện Mô mềm - Xương hoặc Mô mềm - Không khí. Hệ quả: Tạo ra vùng hồi âm rất mạnh kèm bóng lưng sạch/bẩn phía sau.
-Chênh lệch trở kháng âm NHỎ ($$\Delta Z$$ nhỏ): Phần lớn chùm âm đi xuyên qua, chỉ một lượng nhỏ quay về đầu dò. Ví dụ: Bề mặt tiếp xúc giữa Gan - Thận. System dựng nên hình ảnh mô phỏng ranh giới rõ nét mà vẫn khảo sát được tạng nằm sâu.
+- **Chênh lệch trở kháng âm lớn ($\Delta Z$ lớn):** Phản xạ gần như toàn bộ chùm âm. Ví dụ: Giao diện Mô mềm - Xương hoặc Mô mềm - Không khí. Hệ quả tạo ra vùng hồi âm rất mạnh kèm bóng lưng phía sau.
+- **Chênh lệch trở kháng âm nhỏ ($\Delta Z$ nhỏ):** Phần lớn chùm âm truyền qua, chỉ một phần nhỏ quay về đầu dò. Ví dụ: Bề mặt tiếp xúc Gan - Thận.
 
 ---
 
-## Sự giảm thế năng âm
+## Sự Suy hao Sóng âm
 
-Sự giảm thế năng âm là sự mất mát dần năng lượng của sóng âm khi nó truyền qua môi trường. Nó tăng lên theo:
+Sự suy hao (attenuation) là sự giảm dần năng lượng của sóng âm khi truyền qua môi trường mô. Sự suy hao tăng lên theo:
 
-1. **Độ sâu:** Sóng âm truyền càng xa thì năng lượng mất đi càng nhiều.
-2. **Tần số:** Sóng âm có tần số cao hơn sẽ suy hao nhanh hơn nhiều so với sóng âm có tần số thấp hơn.
+1. **Độ sâu:** Sóng âm truyền càng xa, năng lượng mất mát càng nhiều.
+2. **Tần số:** Tần số sóng âm càng cao thì mức độ suy hao càng nhanh.
 
 ```mermaid
 flowchart TD
-  EnergyLoss[Suy hao] --> Absorption[Hấp thụ: Chuyển hóa thành nhiệt]
-  EnergyLoss --> Reflection[Phản xạ: Tán xạ / Tiếng vang]
-  EnergyLoss --> Refraction[Khúc xạ: Sóng bị bẻ cong]
+  EnergyLoss[Suy hao năng lượng] --> Absorption[Hấp thụ: Chuyển hóa thành nhiệt]
+  EnergyLoss --> Reflection[Phản xạ: Tán xạ và hồi âm]
+  EnergyLoss --> Refraction[Khúc xạ: Bẻ cong hướng truyền]
 ```
 
-:::note[Sự đánh đổi]
-
-- **Tần số cao (10 - 20 MHz):** Độ phân giải không gian tuyệt vời nhưng độ đâm xuyên kém (nông). Lý tưởng cho các cấu trúc nông (ví dụ: mạch máu, tuyến giáp, dây thần kinh).
-- **Tần số thấp (2 - 5 MHz):** Độ phân giải không gian kém hơn nhưng độ đâm xuyên tuyệt vời. Lý tưởng cho các cấu trúc nằm sâu (ví dụ: ổ bụng, tim mạch, sản khoa).
-
+:::note[Mối tương quan Tần số và Độ phân giải]
+- **Tần số cao (10–20 MHz):** Độ phân giải không gian cao nhưng độ đâm xuyên nông. Thích hợp cho các cấu trúc nông (tuyến giáp, mạch máu nông, mô mềm nông).
+- **Tần số thấp (2–5 MHz):** Độ phân giải thấp hơn nhưng độ đâm xuyên sâu. Thích hợp cho các cấu trúc nằm sâu (ổ bụng, sản khoa, tim mạch).
 :::

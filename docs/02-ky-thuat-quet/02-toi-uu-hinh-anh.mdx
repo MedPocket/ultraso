@@ -1,86 +1,80 @@
 ---
-title: Tối ưu hình ảnh
-description: Tìm hiểu cách sử dụng và điều chỉnh các phím chức năng cơ bản trên máy siêu âm để thu được hình ảnh chất lượng cao.
+title: Tối ưu Hình ảnh
+description: Hướng dẫn điều chỉnh các phím chức năng trên máy siêu âm để thu được hình ảnh chẩn đoán sắc nét và nhận biết các xảo ảnh thường gặp.
 ---
 
-"Knobology" đề cập đến việc nghiên cứu và sử dụng thành thạo các nút điều khiển trên máy siêu âm. Tối ưu hóa là quá trình chủ động điều chỉnh các phím này để tối đa hóa độ rõ nét của hình ảnh chẩn đoán.
+## Tổng quan
 
-## Các Phím Điều chỉnh Tối ưu hóa Cốt lõi
+Tối ưu hóa hình ảnh siêu âm (Knobology) là kỹ năng chủ động điều chỉnh các phím điều khiển trên máy siêu âm nhằm đạt được hình ảnh rõ nét nhất, phục vụ chính xác cho quá trình chẩn đoán lâm sàng.
 
-Để có được hình ảnh tốt nhất có thể, người làm siêu âm phải liên tục điều chỉnh 5 thông số thiết yếu sau:
+---
+
+## Kỹ thuật Điều chỉnh Phím Tối ưu Cốt lõi
+
+Để có được hình ảnh siêu âm đạt chuẩn, bác sĩ cần điều chỉnh 5 thông số kỹ thuật cốt lõi theo thứ tự logic:
 
 ```mermaid
 flowchart TD
-    Start[Đặt đầu dò lên vùng khảo sát] --> Depth[1. Depth: Chọn độ sâu phù hợp]
-    Depth --> Focus[2. Focus: Đặt tiêu điểm tại/ngay dưới tổn thương]
-    Focus --> Freq[3. Frequency: Chọn tần số phù hợp độ sâu]
-    Freq --> GainTGC[4. Gain & TGC: Điều chỉnh độ sáng tối toàn phần & theo tầng độ sâu]
-    GainTGC --> FinalImage[Hình ảnh chẩn đoán đạt chuẩn lâm sàng]
+  Start[Đặt đầu dò lên vùng khảo sát] --> Depth[1. Depth: Chọn độ sâu phù hợp]
+  Depth --> Focus[2. Focus: Đặt tiêu điểm tại hoặc ngay dưới tổn thương]
+  Focus --> Freq[3. Tần số: Chọn dải tần số thích hợp]
+  Freq --> GainTGC[4. Gain & TGC: Điều chỉnh độ sáng toàn phần & theo tầng độ sâu]
+  GainTGC --> FinalImage[Hình ảnh chẩn đoán đạt chuẩn lâm sàng]
 ```
 
-### 1. Độ sâu
+### 1. Độ sâu (Depth)
 
-Độ sâu (Depth) quyết định trường nhìn (Field of View) và trực tiếp ảnh hưởng đến **Tốc độ khung hình (Frame Rate)**.
+Độ sâu quyết định trường nhìn (Field of View) và ảnh hưởng trực tiếp đến **Tốc độ khung hình (Frame Rate)**.
 
-- **Quy tắc vàng:** Cấu trúc mục tiêu cần khảo sát nên chiếm khoảng **70-80% màn hình**.
-- **Quá nông (Too shallow):** Bạn không thể nhìn thấy các cấu trúc nằm sâu hơn mục tiêu (bỏ sót bệnh lý).
-- **Quá sâu (Too deep):** Mục tiêu trở nên quá nhỏ để quan sát kỹ, và tốc độ khung hình (frame rate) bị giảm do máy mất thời gian chờ tín hiệu phản hồi trở về từ những độ sâu không cần thiết.
+- **Nguyên tắc chuẩn:** Cấu trúc mục tiêu cần khảo sát nên chiếm khoảng **70–80% chiều cao màn hình**.
+- **Quá nông:** Không quan sát được các cấu trúc phía sau mục tiêu, dễ bỏ sót bệnh lý ở lớp sâu.
+- **Quá sâu:** Cấu trúc mục tiêu bị thu nhỏ, đồng thời tốc độ khung hình giảm do thời gian sóng âm đi và về kéo dài.
 
-### 2. Tiêu điểm
+### 2. Tiêu điểm (Focus)
 
-Focus kiểm soát độ phân giải ngang (lateral resolution) bằng cách thu hẹp chiều rộng chùm tia siêu âm tại một độ sâu cụ thể.
+Tiêu điểm giúp tối ưu hóa độ phân giải ngang (lateral resolution) bằng cách thu hẹp chùm tia siêu âm tại độ sâu mong muốn.
 
-- **Cài đặt tối ưu:** Đặt dấu chỉ báo tiêu điểm (focus marker) **tại hoặc ngay dưới** độ sâu của cấu trúc mục tiêu.
-- Có thể sử dụng nhiều vùng tiêu điểm (multi-focus) nhưng điều này sẽ làm giảm tốc độ khung hình (độ phân giải thời gian).
+- **Cài đặt tối ưu:** Đặt ký hiệu tiêu điểm (focus marker) **tại hoặc ngay dưới bờ dưới** của cấu trúc cần khảo sát.
+- Tránh cài đặt quá nhiều tiêu điểm cùng lúc vì sẽ làm giảm tốc độ khung hình (độ phân giải thời gian).
 
-### 3. Gain toàn phần
+### 3. Độ khuếch đại toàn phần (Overall Gain)
 
-Gain toàn phần khuếch đại tất cả các tín hiệu phản hồi (echo) trở về một cách đồng đều, bất kể chúng bắt nguồn từ độ sâu nào.
+Gain toàn phần giúp khuếch đại tất cả tín hiệu phản hồi (echo) trở về một cách đồng đều trên toàn bộ màn hình.
 
-- **Thiếu Gain (Under-gained):** Hình ảnh quá tối; có thể bỏ sót các tín hiệu phản hồi thực tế của giải phẫu.
-- **Thừa Gain (Over-gained):** Hình ảnh quá sáng (bị lóa/trắng xóa); các tổn thương hoặc ranh giới tinh tế bị xóa nhòa bởi nhiễu âm thanh.
+- **Thiếu Gain (Under-gained):** Màn hình quá tối, mất các chi tiết cấu trúc âm mịn của nhu mô.
+- **Thừa Gain (Over-gained):** Màn hình quá sáng, gây lóa và xóan nhòa các ranh giới tổn thương nhỏ.
 
-### 4. Bù trừ độ khuếch đại theo thời gian
+### 4. Bù trừ Khuếch đại theo Thời gian (TGC)
 
-Vì sóng âm bị suy hao khi truyền vào sâu hơn, các tín hiệu phản hồi từ cấu trúc sâu trở về sẽ yếu hơn nhiều so với từ cấu trúc nông. **TGC - Time-Gain Compensation** cho phép bạn điều chỉnh gain ở các độ sâu cụ thể.
+Do sóng âm bị suy hao dần khi truyền vào sâu, tín hiệu phản hồi từ cấu trúc sâu sẽ yếu hơn cấu trúc nông. **TGC (Time-Gain Compensation)** cho phép điều chỉnh Gain riêng biệt ở các tầng độ sâu khác nhau.
 
-- Thường được biểu diễn dưới dạng một cột dọc gồm các thanh gạt (sliding pods).
-- **Cài đặt tối ưu:** Điều chỉnh các thanh gạt thành một đường chéo mượt mà bắt đầu từ bên trái (khuếch đại ít hơn cho mô nông) và hướng dần sang bên phải (khuếch đại nhiều hơn cho mô sâu hơn).
+- **Cài đặt tối ưu:** Điều chỉnh các thanh gạt TGC thành một đường cong mượt mà từ trái sang phải (khuếch đại tăng dần từ nông đến sâu) để hình ảnh nhu mô có độ sáng đồng nhất từ nông tới sâu.
 
-### 5. Tần số đầu dò
+### 5. Tần số Đầu dò (Frequency)
 
-Nhiều đầu dò đa tần số cho phép thay đổi dải tần phát ra ngay trên bàn phím:
+Đối với các đầu dò đa tần số, bác sĩ có thể thay đổi dải tần phát ra tùy thuộc vào thể trạng bệnh nhân:
 
-- **Tăng tần số (THI / Resolution mode):** Tăng độ phân giải chi tiết, dùng cho bệnh nhân gầy hoặc tổn thương nông.
-- **Giảm tần số (Penetration mode):** Tăng khả năng đâm xuyên, dùng cho tổn thương nằm rất sâu hoặc bệnh nhân béo phì.
+- **Tăng tần số (Chế độ Resolution):** Tăng độ phân giải chi tiết, phù hợp với người bệnh thể trạng gầy hoặc tổn thương vùng nông.
+- **Giảm tần số (Chế độ Penetration):** Tăng độ đâm xuyên, phù hợp với người bệnh béo phì hoặc tổn thương nằm ở lớp sâu.
 
 ---
 
-## Các Nhiễu ảnh (Xảo ảnh) Thường gặp
+## Tiêu chuẩn Đánh giá Xảo ảnh (Nhiễu ảnh) Thường gặp
 
-Xảo ảnh (Artifacts) là những hình ảnh hiển thị trên màn hình mà không tương ứng với các cấu trúc giải phẫu thực tế. Nhận biết được xảo ảnh giúp ngăn ngừa việc chẩn đoán sai.
+Xảo ảnh (artifacts) là những hình ảnh hiển thị trên màn hình không tương ứng với cấu trúc giải phẫu thực tế. Việc nhận biết xảo ảnh giúp tránh chẩn đoán sai lầm.
 
-### 1. Bóng lưng bên dưới
+### 1. Bóng lưng (Acoustic Shadowing)
 
-Xảy ra ở phía sau một cấu trúc có độ suy hao hoặc phản xạ rất mạnh (như xương, sỏi mật, hoặc các
-nốt vôi hóa). Sóng siêu âm không thể xuyên qua, để lại một khoảng trống hoàn toàn tối (trống âm)
-phía sau cấu trúc đó.
+Xuất hiện phía sau cấu trúc có độ hấp thụ hoặc phản xạ âm rất mạnh (sỏi mật, xương, nốt vôi hóa). Chùm âm không thể truyền qua, tạo ra một dải tối (trống âm) phía sau.
 
-### 2. Tăng âm phía sau
+### 2. Tăng cường Âm Phía sau (Posterior Acoustic Enhancement)
 
-Xảy ra ở phía sau một cấu trúc có độ suy hao âm rất yếu (thường là các cơ quan chứa dịch như túi
-mật hoặc bàng quang). Do mất rất ít năng lượng khi truyền qua dịch, các sóng âm phản hồi từ các
-mô phía sau nó trở nên sáng hơn một cách nhân tạo. Điều này giúp chứng minh cấu trúc đó là dạng
-nang/chứa dịch.
+Xuất hiện phía sau cấu trúc có độ suy hao âm rất yếu (nang dịch, bàng quang, túi mật chứa dịch). Sóng âm đi qua dịch mất ít năng lượng hơn mô xung quanh, làm vùng mô phía sau hiển thị sáng hơn (tăng âm) một cách giả tạo. Đây là tiêu chuẩn quan trọng để xác nhận tổn thương dạng nang.
 
-### 3. Dội lại
+### 3. Dội lại (Reverberation)
 
-Xảy ra khi sóng âm bị "bẫy" và nảy qua nảy lại giữa hai bề mặt song song có tính phản xạ cao.
-Hiển thị dưới dạng nhiều đường ngang cách đều nhau (ví dụ: các đường A-line trong siêu âm phổi
-bình thường).
+Xuất hiện khi sóng âm bị phản xạ nhiều lần giữa 2 bề mặt song song có trở kháng âm chênh lệch lớn. Biểu hiện là các đường tăng âm song song cách đều nhau (như đường A-line trong siêu âm phổi).
 
-### 4. Hình ảnh soi gương
+### 4. Soi gương (Mirror Image)
 
-Xảy ra khi chùm tia siêu âm gặp một ranh giới cong có tính phản xạ mạnh (như cơ hoành). Sóng âm
-dội lại từ ranh giới cong, va vào một cấu trúc thực tế, dội ngược lại cơ hoành và trở về đầu dò.
-Máy siêu âm giả định đường đi là thẳng và vẽ một cấu trúc giả đối xứng sâu hơn qua ranh giới đó.
+Xuất hiện khi chùm âm gặp một bề mặt phản xạ mạnh dạng cong (như cơ hoành). Sóng âm dội qua lại giữa tổn thương thực và cơ hoành trước khi về đầu dò, tạo ra một hình ảnh giả đối xứng nằm ở phía bên kia cơ hoành.
