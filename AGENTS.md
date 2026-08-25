@@ -21,19 +21,14 @@
 
 ## Documentation
 
-- **Blume Documentation:** Refer to [https://useblume.dev/docs](https://useblume.dev/docs) whenever guidance on Blume components, navigation, or features is needed.
-
-## Quick Commands
-
-```bash
-bun install       # Install dependencies
-bun run dev       # Run development server
-bun run lint      # Lint codebase
-bun run fmt       # Format codebase
-bun run typecheck # Type check
-bun run build     # Build static site
-```
+**Blume Documentation:** Refer to [https://useblume.dev/docs](https://useblume.dev/docs) whenever guidance on Blume components, navigation, or features is needed.
 
 ## Authoring Rules
 
-- Follow [**STYLEGUIDE.md**](./STYLEGUIDE.md) for all document formatting, style standards, medical terminology, and document structure.
+Follow [**STYLEGUIDE.md**](./STYLEGUIDE.md) for all document formatting, style standards, medical terminology, and document structure.
+
+## Review Checklist
+
+- [ ] Run `bun install` after pulling remote changes and before getting started.
+- [ ] Run `bun run typecheck`, `bun run lint lint` and `bun run fmt` to format, lint, type check.
+- [ ] Check if `package.json` scripts necessary for validation, run via `bun run <script>`.
