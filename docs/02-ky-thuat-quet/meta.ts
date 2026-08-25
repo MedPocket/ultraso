@@ -5,5 +5,4 @@ export default defineMeta({
   icon: "activity",
   order: 2,
   collapsed: true,
-  pages: ["dau-do", "toi-uu-hinh-anh"],
 });

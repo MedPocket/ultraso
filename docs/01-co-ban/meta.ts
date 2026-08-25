@@ -5,5 +5,4 @@ export default defineMeta({
   icon: "book-open",
   order: 1,
   collapsed: true,
-  pages: ["vat-ly-sieu-am", "modes"],
 });

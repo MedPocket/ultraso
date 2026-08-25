@@ -1,258 +1,224 @@
-# Hướng dẫn viết tài liệu (STYLEGUIDE.md)
+# Hướng Dẫn Phong Cách Viết & Trình Bày Tài Liệu Y Khoa
 
-Tài liệu này quy định các nguyên tắc, chuẩn mực về nội dung, định dạng và cấu trúc cho toàn bộ dự án tài liệu siêu âm lâm sàng **Ultraso**. Hướng dẫn này đảm bảo sự chính xác y khoa, tính thống nhất tuyệt đối trong trình bày, tối ưu hóa khả năng hiển thị trên nền tảng Blume và mang lại trải nghiệm đọc tốt nhất cho nhân viên y tế, bác sĩ lâm sàng và học viên.
-
----
-
-## 1. Nguyên tắc chung (General Principles)
-
-- **Độ chính xác Y khoa:** Mọi thông tin, kỹ thuật quét, dấu hiệu siêu âm và tiêu chuẩn chẩn đoán lâm sàng phải dựa trên các nguồn bằng chứng khoa học và khuyến cáo uy tín (Bộ Y tế Việt Nam, AIUM, ISUOG, WFUMB, ACR, v.v.). Ưu tiên số liệu định lượng cụ thể, có nguồn gốc rõ ràng.
-- **Tính khách quan và Chuyên nghiệp:** Sử dụng giọng văn trung tính, khoa học, nghiêm túc. Tránh biểu đạt cảm xúc cá nhân hoặc sử dụng các từ mang tính chủ quan cảm tính (ví dụ: "rất nguy hiểm", "vô cùng tồi tệ", "khủng khiếp").
-- **Tính súc tích và Rõ ràng:** Viết ngắn gọn, đi thẳng vào vấn đề lâm sàng và kỹ thuật siêu âm. Sử dụng các câu chủ động, ngắn gọn, tránh lặp từ và các cách diễn đạt dài dòng không cần thiết.
-- **Độc giả mục tiêu:** Tài liệu được thiết kế cho bác sĩ lâm sàng, học viên siêu âm, bác sĩ nội trú, sinh viên y khoa và những người có kiến thức y khoa nền tảng. Khi sử dụng các thuật ngữ chuyên sâu, cần đảm bảo tính chính xác và rõ ràng.
+> **Dựa trên _Cẩm nang Phong cách AMA (AMA Manual of Style - Xuất bản lần thứ 11)_ và Tối ưu hóa cho nền tảng tài liệu (Blume Framework).**
+> _Hướng dẫn toàn diện dành cho tác giả, người viết tài liệu kỹ thuật, biên tập viên và đội ngũ biên soạn nội dung y khoa, bài báo lâm sàng, hướng dẫn kỹ thuật siêu âm và trang web tài liệu._
 
 ---
 
-## 2. Định dạng văn bản (Formatting & Typography)
+## 1. Tổng Quan & Nguyên Tắc Cốt Lõi
 
-### In đậm (Bold)
+Viết tài liệu y khoa và hướng dẫn siêu âm lâm sàng chất lượng cao đòi hỏi sự rõ ràng, chính xác, khách quan và tuân thủ nghiêm ngặt các tiêu chuẩn khoa học và đạo đức. Dù biên soạn báo cáo nghiên cứu, tài liệu kỹ thuật siêu âm hay nội dung giáo dục y khoa, hãy tuân thủ các nguyên tắc cốt lõi sau:
 
-Sử dụng định dạng in đậm (`**văn bản**`) một cách có chọn lọc để làm nổi bật các **từ khóa quan trọng**, các **ngưỡng số liệu siêu âm/lâm sàng có ý nghĩa**, hoặc **chỉ định/chống chỉ định mấu chốt**.
+1. **Tính Chính Xác & Khả Năng Nâng Cao Định Tính (Tính Lặp Lại):** Đảm bảo mọi số liệu, thông số siêu âm, giá trị xét nghiệm và khẳng định khoa học có thể kiểm chứng và nhất quán giữa phần tóm tắt, văn bản chính, bảng biểu và hình ảnh.
+2. **Rõ Ràng & Trực Tiếp:** Sử dụng câu từ rõ ràng, minh bạch. Ưu tiên thể chủ động khi thích hợp, tránh từ ngữ cầu kỳ/jargon, và giải thích từ viết tắt ở lần xuất hiện đầu tiên.
+3. **Tính Bao Hàm & Khách Quan:** Tránh ngôn ngữ mang tính định kiến, gắn nhãn cá nhân theo bệnh lý hoặc điều kiện kinh tế xã hội, hoặc đưa ra kết luận nguyên nhân - kết quả đối với các nghiên cứu quan sát.
+4. **Định Dạng Chuẩn Hóa:** Tuân thủ hướng dẫn của AMA lần thứ 11 về trích dẫn tài liệu tham khảo, biểu thức toán học, đơn vị đo lường và cấu trúc tài liệu.
+5. **Tham Chiếu Tài Liệu Nền Tảng Blume:** Khi cần làm rõ quy cách định dạng MDX, hiển thị các thành phần hoặc cấu trúc giao diện, tham khảo trực tiếp tại [https://useblume.dev/docs](https://useblume.dev/docs).
 
-- **Quy tắc:** Chỉ in đậm cụm từ hoặc số liệu cụ thể. **Không** in đậm toàn bộ câu hoặc cả dòng dài.
-- _Đúng:_ Đường kính động mạch chủ bụng bình thường là **< 3 cm**.
-- _Sai:_ **Đường kính động mạch chủ bụng bình thường là < 3 cm.**
+---
 
-### In nghiêng (Italic)
+## 2. Cấu Trúc Bài Hướng Dẫn Siêu Âm Lâm Sàng
 
-Sử dụng định dạng in nghiêng (`_văn bản_` hoặc `*văn bản*`) cho các trường hợp cụ thể sau:
+### Các Loại Bài Báo Tiêu Chuẩn
 
-1. **Thuật ngữ tiếng Anh lâm sàng hoặc từ viết tắt quốc tế** đặt trong ngoặc đơn ở lần xuất hiện đầu tiên:
-   - _Ví dụ:_ Siêu âm tại giường (_Point-of-Care Ultrasound_ - POCUS).
-2. **Tên khoa học của tác nhân vi sinh** (vi khuẩn, virus, nấm...):
-   - _Ví dụ:_ _Escherichia coli_, _Staphylococcus aureus_.
-3. **Tên hoạt chất/tên thuốc gốc** (generic name) dạng chữ thường:
-   - _Ví dụ:_ _lidocain_, _paracetamol_, _gel siêu âm_.
-4. **Tên sách, chương sách hoặc hướng dẫn điều trị**:
-   - _Ví dụ:_ _Rumack's Diagnostic Ultrasound_, _Phác đồ điều trị Siêu âm_.
-5. **Chú thích bên dưới hình ảnh hoặc bảng biểu**:
-   - _Ví dụ:_ _Hình "Mặt cắt dọc động mạch chủ bụng"._, _Bảng "Phân loại mức độ hẹp động mạch cảnh"._
+| Thể Loại Bài Báo                        | Mục Đích / Phạm Vi                                                   | Độ Dài / Giới Hạn Tiêu Chuẩn | Yêu Cầu Chính                                                  |
+| :-------------------------------------- | :------------------------------------------------------------------- | :--------------------------- | :------------------------------------------------------------- |
+| **Báo Cáo Nghiên Cứu / Nghiên Cứu Gốc** | Nghiên cứu thực nghiệm ban đầu (RCT, đoàn hệ, bệnh-chứng, chẩn đoán) | 3000–3500 từ                 | Tóm tắt có cấu trúc, định dạng IMRAD, bảng kiểm CONSORT/STROBE |
+| **Tổng Quan Hệ Thống & Phân Tích Gộp**  | Tổng hợp bằng chứng toàn diện từ các cơ sở dữ liệu                   | 3000–3500 từ                 | Tóm tắt có cấu trúc, sơ đồ PRISMA, chiến lược tìm kiếm         |
+| **Tổng Quan Mô Tả (Narrative Review)**  | Tổng quan chuyên gia về một chủ đề lâm sàng hoặc tổng hợp giáo dục   | 2000–3000 từ                 | Tóm tắt có hoặc không cấu trúc, tổng hợp dựa trên bằng chứng   |
 
-### Quy tắc Danh sách (Lists)
+### Cấu Trúc Chuẩn Hóa Bài Hướng Dẫn Siêu Âm Lâm Sàng
 
-Để đảm bảo tính mạch lạc và song song về mặt ngữ pháp, cấu trúc danh sách phải tuân thủ nghiêm ngặt các quy tắc sau:
+Đối với các bài giảng hoặc hướng dẫn kỹ thuật siêu âm/mặt cắt lâm sàng, tuân thủ nghiêm ngặt các mục sau:
 
-#### Danh sách không thứ tự (Unordered List)
+- **Tổng quan:** Trình bày về vấn đề lâm sàng, bối cảnh, khoảng trống kiến thức, và mục tiêu.
+- **Chỉ định & Chống chỉ định (nếu có):** Liệt kê các triệu chứng, bệnh lý hoặc tình huống lâm sàng cần thực hiện (ví dụ: đau bụng cấp, nghi ngờ tắc mạch...). Các chống chỉ định trên siêu âm.
+- **Chuẩn bị:** Yêu cầu chuẩn bị (nhịn ăn 6-8 tiếng, nhịn tiểu làm đầy bàng quang, ngừng thuốc...). Loại máy siêu âm, loại đầu dò (Convex, Linear, Transvaginal...). Tần số đầu dò khuyên dùng (MHz).
+- **Kỹ thuật:** Tư thế bệnh nhân, cài đặt máy, kỹ thuật quét & lát cắt chuẩn, chỉ số cần do đạc.
+- **Tiêu chuẩn chẩn đoán, đánh giá:**: Mô tả hình ảnh (nhu mô, kích thước, bờ, hồi âm (trống/kém/dày), tính chất tưới máu...), tiêu chuẩn chẩn đoán, chẩn đoán phân biệt và cạm bẫy.
 
-Sử dụng dấu gạch ngang `-` cho các ý ngang hàng.
+### Tiêu Đề và Tiêu Đề Phụ
 
-- **Ký tự đầu dòng:** Luôn viết hoa chữ cái đầu tiên của mỗi mục.
-- **Cấu trúc song song (Parallel Structure):** Các mục trong cùng một danh sách phải đồng nhất về cấu trúc ngữ pháp (ví dụ: tất cả đều bắt đầu bằng danh từ, động từ, hoặc đều là câu hoàn chỉnh).
-- **Dấu kết thúc câu:** **Luôn kết thúc bằng dấu chấm `.`** cho tất cả các mục (kể cả cụm từ ngắn hay câu hoàn chỉnh) để đảm bảo tính nhất quán tuyệt đối.
-- **Danh sách lồng nhau (Nested lists):** Thụt đầu dòng đúng **2 khoảng trắng (spaces)** so với cấp cha. Hạn chế lồng quá 2 cấp.
+- **Súc Tích & Giàu Thông Tin:** Trình bày các thuật ngữ chính theo thứ tự logic: _Can thiệp/Kỹ thuật → Kết cục → Bệnh lý/Quần thể_.
+- **Phân Cấp Tiêu Đề:**
+  - H1 (`#`): Chỉ dùng cho tên bài viết (tự động tạo từ Frontmatter `title`).
+  - H2 (`##`): Các mục chính.
+  - H3 (`###`): Các sub-section phụ. Tuyệt đối **không sử dụng H5, H6**.
+- **Tránh Ngôn Ngữ Nguyên Nhân - Kết Quả Trong Nghiên Cứu Quan Sát:** Dùng "Mối liên quan giữa..." thay vì "Tác động của...".
 
-**Ví dụ:**
+### Tóm Tắt (Có Cấu Trúc & Không Cấu Trúc)
 
-```md
-### Tiêu chuẩn kỹ thuật của mặt cắt
+Sử dụng Frontmatter `description` để tóm tắt 1 câu định hướng nội dung bài viết phục vụ SEO và hiển thị tổng quan. Đối với bài báo nghiên cứu, sử dụng tóm tắt có cấu trúc (tối đa 350 từ) gồm: _Bối Cảnh, Mục Tiêu, Thiết Kế, Can Thiệp, Biến Số Đầu Ra, Kết Quả, Kết Luận_.
 
-- Đặt đầu dò ở vùng thượng vị theo mặt cắt dọc.
-- Thấy rõ động mạch chủ bụng phân nhánh động mạch thân tạng.
-- Đo đường kính ngoài-ngoài của thành mạch.
+---
+
+## 3. Tổ Chức Tập Tin, Sắp Xếp Trang & Tài Sản
+
+### Tự Động Sắp Xếp Trang theo Tiền Tố Số
+
+Để giữ cho tài liệu luôn cập nhật và tự động sắp xếp theo thứ tự mong muốn:
+
+- **Tiền tố số thứ tự:** Mọi file bài viết (`.md` / `.mdx`) trong các thư mục con dưới `docs/` bắt buộc phải được đánh số thứ tự dạng `01-`, `02-`, `03-`...
+  - _Ví dụ:_ `docs/01-co-ban/01-vat-ly-sieu-am.mdx`, `docs/01-co-ban/02-modes.mdx`.
+- **Tự động xử lý Slug/URL:** Blume tự động tách bỏ tiền tố số khi tạo URL route (ví dụ: `01-vat-ly-sieu-am.mdx` hiển thị tại `/co-ban/vat-ly-sieu-am`), đồng thời xếp thứ tự sidebar đúng theo chữ số.
+
+### Cấu Trúc meta.ts Tối Giản
+
+Tập tin `meta.ts` trong mỗi thư mục chỉ cấu hình thuộc tính của nhóm (title, icon, order, collapsed...), **tuyệt đối không khai báo mảng `pages`**:
+
+```typescript
+import { defineMeta } from "blume";
+
+export default defineMeta({
+  title: "Nguyên lý siêu âm cơ bản",
+  icon: "book-open",
+  order: 1,
+  collapsed: true,
+});
 ```
 
-#### Danh sách có thứ tự (Ordered List)
+### Quản Lý Hình Ảnh & Đường Dẫn Tương Đối
 
-Sử dụng `1.`, `2.`, `3.` khi trình bày quy trình, các bước thực hiện theo trình tự thời gian, hoặc các mức độ ưu tiên giảm dần.
-
-- Quy tắc viết hoa đầu dòng và dấu chấm kết thúc tương tự danh sách không thứ tự.
-
-**Ví dụ:**
-
-```md
-### Quy trình quét siêu âm vùng thượng vị
-
-1. Đặt bệnh nhân ở tư thế nằm ngửa, hít sâu và nín thở.
-2. Thoa lượng gel siêu âm vừa đủ lên vùng thượng vị.
-3. Đặt đầu dò Convex ở vùng thượng vị theo mặt cắt dọc để định vị động mạch chủ bụng.
-```
+- **Thư mục tài sản (`assets/`):** Lưu trữ toàn bộ hình ảnh trong thư mục `assets/` ở gốc dự án, mô phỏng theo cấu trúc thư mục của bài viết.
+  - _Ví dụ:_ `assets/01-co-ban/vat-ly-sieu-am/tro-khang-am.png`
+- **Đường dẫn tương đối:** Mọi liên kết hình ảnh và liên kết nội bộ phải dùng đường dẫn tương đối (bắt đầu bằng `./` hoặc `../`).
 
 ---
 
-## 3. Kí hiệu, Kí tự đặc biệt & Đo lường
+## 4. Thuật Ngữ Y Khoa & Ngôn Ngữ Tôn Trọng
 
-### Kí hiệu toán học và Đơn vị đo lường
+### Ngôn Ngữ Đặt Con Người Làm Trung Tâm
 
-- **Phép so sánh:** Luôn thêm **một khoảng trắng** xung quanh các toán tử so sánh (`>`, `<`, `≥`, `≤`, `=`). Sử dụng kí hiệu chuẩn thay vì gõ dạng kí tự ghép.
-  - _Đúng:_ `> 3 cm`, `≤ 5 mm`, `≥ 60 cm/s`.
-  - _Sai:_ `>3 cm`, `≤5mm`, `>= 60cm/s`.
-- **Đơn vị đo lường:** Luôn có **một khoảng trắng** giữa số lượng và đơn vị đo lường.
-  - _Đúng:_ 5 MHz, 10 cm, 37 °C, 60 cm/s.
-  - _Sai:_ 5MHz, 10cm, 37°C.
-- **Phần trăm:** Viết liền chữ số và dấu phần trăm `%` (không có khoảng trắng).
-  - _Đúng:_ 50%, 95% CI.
-  - _Sai:_ 50 %.
-- **Khoảng giá trị (Ranges):** Dùng dấu gạch nối `-` (hyphen) không có khoảng trắng hoặc dùng từ "đến".
-  - _Đúng:_ 2 - 5 MHz, 5 đến 10 cm.
-  - _Sai:_ 2- 5 MHz, 2-5MHz.
+Tránh định danh cá nhân bằng tình trạng bệnh lý, tuổi tác hoặc điều kiện kinh tế xã hội của họ.
 
-### Quy tắc viết chữ số và chữ
+| Thuật Ngữ Tránh Dùng                       | Thuật Ngữ Ưu Tiên Sử Dụng                      | Lý Do                                                                |
+| :----------------------------------------- | :--------------------------------------------- | :------------------------------------------------------------------- |
+| _bệnh nhân tiểu đường_, _người tiểu đường_ | _bệnh nhân mắc bệnh đái tháo đường_            | Ngôn ngữ lấy con người làm trung tâm tách biệt cá nhân khỏi bệnh tật |
+| _người nghèo_, _người thất nghiệp_         | _người có thu nhập thấp_                       | Tránh gắn nhãn quần thể                                              |
+| _con nghiện_, _người nghiện rượu_          | _người rối loạn sử dụng chất_                  | Loại bỏ ngôn ngữ kỳ thị                                              |
+| _điều trị thất bại trên bệnh nhân_         | _phương pháp điều trị không mang lại hiệu quả_ | Bệnh nhân không thất bại; phương pháp điều trị mới là thứ thất bại   |
 
-**Các trường hợp bắt buộc/khuyên dùng chữ:**
+### Cách Dùng Từ Chuẩn Xác
 
-- **Số đứng ở đầu câu:** Bắt buộc viết bằng chữ và viết hoa chữ cái đầu (ví dụ: "Ba bệnh nhân...", "Năm tần số đầu dò...").
-- **Các số nhỏ đại diện cho số lượng:** Trong văn mô tả, văn xuôi, giao tiếp thông thường (thường là từ 1 đến 9, ví dụ: "quét siêu âm ở ba mặt cắt chính").
-- **Các cụm từ cố định, thành ngữ, danh từ riêng hoặc từ chỉ thứ tự/tháng:** Ví dụ: "thứ tư", "tháng tư", "ngày một ngày hai".
+- **chăm sóc sức khỏe:** Viết thành hai từ riêng biệt, không dùng dấu nối (_hệ thống chăm sóc sức khỏe_).
+- **email / internet / website:** Viết thường, không có dấu nối.
+- **tai biến mạch máu não vs đột quỵ:** Ưu tiên dùng _đột quỵ_ hoặc _hội chứng đột quỵ_.
 
-**Các trường hợp giữ nguyên dạng chữ số:**
+### Tên Thuốc & Thiết Bị Y Tế
 
-- **Ngày tháng năm cụ thể:** Ví dụ: `20/7/2026`, `ngày 5 tháng 8`.
-- **Số liệu thống kê, dữ liệu kỹ thuật, số đo lường, tần số, phần trăm, thời gian chính xác:** Ví dụ: `5 MHz`, `10%`, `15 phút`, `3.5 cm`.
-- **Chương/mục/điều khoản tài liệu:** Ví dụ: `Chương 3`, `Mục 2`.
+1. **Tên Biệt Dược / Tên Tên Dược:** Luôn ưu tiên tên gốc phi thương mại chính thức (USAN hoặc INN), viết bằng chữ thường và in nghiêng (ví dụ: _paracetamol_, _pembrolizumab_, _lidocain_).
+2. **Gốc Muối:** Bỏ gốc muối ngoại trừ trường hợp bắt buộc (dùng _ampicillin_, không dùng _ampicillin sodium_).
 
-### Kí tự đặc biệt & Trình bày
+### Danh Pháp Gen & Sinh Học
 
-- **Dấu ngoặc kép:** Sử dụng dấu ngoặc kép thẳng `"`. Không dùng kí tự ngoặc kép cong hoặc thay thế khác.
-- **Dấu gạch chéo `/`:** Viết liền với các từ ở hai bên khi biểu thị sự lựa chọn hoặc tỷ lệ.
-  - _Đúng:_ Đầu dò Convex/Linear, 120/80 mmHg.
-  - _Sai:_ Convex / Linear.
-- **Kí hiệu `&`:** Tránh sử dụng trong nội dung văn bản thông thường, hãy viết rõ từ "và". Chỉ sử dụng trong tên riêng hoặc tài liệu tham khảo chính thức.
-- **Mũi tên chỉ hướng/kết quả:** Sử dụng các kí tự Unicode chuẩn `→`, `←`, `↔` thay vì sử dụng kí tự ghép như `->`, `<-`.
-- **Ký tự Hy Lạp:** Sử dụng ký tự Unicode chuẩn (ví dụ: `α` (Alpha), `β` (Beta), `γ` (Gamma), `δ` (Delta), `μ` (Micro)...). Không viết phiên âm tiếng Việt (như mi-crô-mét).
+- **Ký Hiệu Gen vs Protein:**
+  - Ký hiệu gen: _In nghiêng_ (ví dụ: _BRCA1_, _EGFR_).
+  - Ký hiệu protein: In đứng (không nghiêng) (ví dụ: BRCA1, EGFR).
+- **Danh Pháp Sinh Vật:** In nghiêng tên chi và loài (_Staphylococcus aureus_, _Escherichia coli_). Sau lần đề cập đầu tiên, viết tắt tên chi (_S aureus_, _E coli_).
 
 ---
 
-## 4. Thuật ngữ Y khoa & Viết tắt
+## 5. Trình Bày Dữ Liệu, Báo Cáo Thống Kê & Trực Quan Hóa
 
-- **Ưu tiên Tiếng Việt lâm sàng:** Sử dụng thuật ngữ chuyên môn Tiếng Việt chuẩn theo tài liệu của Bộ Y tế hoặc sách giáo trình Trường Đại học Y Dược TP. HCM, Đại học Y Hà Nội.
-- **Thuật ngữ Tiếng Anh đồng hành:** Cung cấp thuật ngữ gốc Tiếng Anh viết nghiêng trong ngoặc đơn ở lần xuất hiện đầu tiên của thuật ngữ khó hoặc dễ gây nhầm lẫn.
-  - _Ví dụ:_ Trở kháng âm (_Acoustic impedance_).
-- **Quy trình Viết tắt:**
-  - Lần xuất hiện đầu tiên: Viết đầy đủ thuật ngữ tiếng Việt, kèm theo từ viết tắt trong ngoặc đơn.
-  - Các lần xuất hiện sau: Sử dụng trực tiếp từ viết tắt.
-  - _Ví dụ:_ Siêu âm hội chẩn tại giường (POCUS) là... Kỹ thuật POCUS giúp...
-- **Tên thuốc và Hoạt chất:**
-  - Luôn sử dụng tên hoạt chất gốc (Generic name), viết bằng chữ thường và in nghiêng.
-  - _Ví dụ:_ _lidocain_, _gel siêu âm_.
+### Chỉ Số & Giá Trị Thống Kê
 
----
+1. **Thống Kê Mô Tả:**
+   - **Dữ Liệu Phân Phối Chuẩn:** Trình bày dạng **Trung bình (Độ lệch chuẩn / SD)**.
+   - **Dữ Liệu Không Phân Phối Chuẩn:** Trình bày dạng **Trung vị (Khoảng tứ phân vị / IQR)**.
+2. **Độ Chính Xác & Làm Tròn:** Phần trăm lấy 1 chữ số thập phân (`24.5%`). Báo cáo kích thước mẫu dưới dạng số nguyên (`n = 150`).
 
-## 5. Tổ chức Thư mục và Cấu trúc Bài viết
+### Giá Trị P và Khoảng Tin Cậy
 
-### Tổ chức Thư mục và Tài sản (Assets)
+- **Định Dạng Giá Trị P:**
+  - Ký hiệu _P_ luôn viết hoa và in nghiêng (_P_).
+  - Không viết số 0 trước dấu thập phân đối với giá trị _P_: viết **_P_ = .003**, **_P_ < .001**.
+- **Báo cáo kèm Kích thước Hiệu ứng & CI:**
+  - _Đúng:_ _Giảm 3.2% tỷ lệ tái nhập viện (95% CI, 1.1%-5.3%; P = .004)._
 
-Để duy trì tính di động, độc lập và dễ quản lý của từng chủ đề tài liệu:
+### Bảng, Hình Ảnh, Callouts & Mermaid Flowcharts
 
-- **Vị trí ảnh:** Tất cả hình ảnh minh họa phải được lưu trữ trong thư mục `assets/` nằm ở thư mục gốc (root) của dự án. Hãy giữ nguyên cấu trúc thư mục của bài viết tương ứng trong `assets/` để dễ quản lý.
-  - _Đúng:_ `assets/01-co-ban/vat-ly-sieu-am/tro-khang-am.png`
-  - _Sai:_ `docs/01-co-ban/_images/vat-ly-sieu-am/tro-khang-am.png`
-- **Đường dẫn trong Frontmatter & Nội dung:** Mọi liên kết nội bộ khai báo trong Frontmatter (ví dụ: các hành động nút bấm) hoặc liên kết giữa các trang phải sử dụng **đường dẫn tương đối** (bắt đầu bằng `./` hoặc `../`) để tránh lỗi khi triển khai dự án trên các base path khác nhau (như GitHub Pages `/ultraso` or Netlify `/`).
-  - _Ví dụ:_ `href: ./vat-ly-sieu-am` thay vì `href: /co-ban/vat-ly-sieu-am`.
-
-### Cấu trúc Frontmatter chuẩn
-
-```yaml
----
-title: Tên bài viết/Kỹ thuật/Chủ đề (Ngắn gọn, rõ ràng)
-description: Tóm tắt 1 câu định hướng nội dung bài viết phục vụ SEO và hiển thị.
----
-```
-
-### Phân cấp Tiêu đề (Headings)
-
-- Sử dụng H1 (`#`) duy nhất cho tên bài viết (được tự động tạo từ `title` trong Frontmatter).
-- Sử dụng H2 (`##`) cho các phần chính và H3 (`###`) cho các phần phụ. Cấm nhảy cóc tiêu đề (ví dụ từ H2 xuống H4).
-
-### Giới hạn độ sâu lồng ghép (Nesting Limits)
-
-Để tài liệu luôn súc tích, dễ đọc lướt (scan) và tránh tình trạng phân mảnh nội dung, tổng mức độ lồng ghép từ Tiêu đề (Heading) xuống đến Danh sách (List) phải được kiểm soát nghiêm ngặt nhằm tránh cấu trúc dạng cây quá sâu:
-
-- **Giới hạn Heading:** Khuyến khích tối đa chỉ dùng đến H3 (###). H4 (####) chỉ dùng khi thực sự cần thiết để chia nhỏ các ý phức tạp. Tuyệt đối **không sử dụng H5, H6.**
-- **Giới hạn List:** Danh sách chỉ lồng tối đa **2 cấp** (1 cấp cha, 1 cấp con).
-- **Quy tắc phối hợp Heading - List:** Không vượt quá 4 mức độ phân cấp (tính từ H2) đối với bất kỳ đoạn nội dung nào.
-  - _Cấu trúc tối ưu (Khuyên dùng):_ `H2` → `H3` → `List cấp 1` → `List cấp 2`.
-  - _Nếu đã sử dụng đến H4:_ Phía dưới H4 chỉ được dùng **List 1 cấp** (không lồng nhau).
-
-### Cấu trúc bài giảng/hướng dẫn siêu âm chuẩn hóa
-
-Mỗi bài viết hướng dẫn siêu âm/mặt cắt cần tuân theo cấu trúc tiêu đề chuẩn mực dưới đây để tạo tính nhất quán cho toàn bộ trang web:
-
-1. **Tổng quan và Chỉ định** (`## Tổng quan và Chỉ định`)
-   - Giới thiệu chung về mặt cắt/bệnh học, lý do thực hiện và các chỉ định chính.
-2. **Kỹ thuật và Chuẩn bị** (`## Kỹ thuật và Chuẩn bị`)
-   - Tư thế bệnh nhân, cách lựa chọn và điều chỉnh đầu dò (tần số, preset), mốc giải phẫu định vị.
-3. **Giải phẫu siêu âm bình thường** (`## Giải phẫu siêu âm bình thường`)
-   - Mô tả các cấu trúc bình thường quan sát được trên mặt cắt, các chỉ số đo lường bình thường.
-4. **Tiêu chuẩn chẩn đoán và Hình ảnh bệnh lý** (`## Tiêu chuẩn chẩn đoán` hoặc `## Hình ảnh bệnh lý`)
-   - Các dấu hiệu siêu âm bất thường, tiêu chuẩn chẩn đoán các bệnh lý thường gặp.
-5. **Xảo ảnh và Hạn chế** (`## Xảo ảnh và Hạn chế`)
-   - Các xảo ảnh (artifacts) thường gặp có thể gây nhầm lẫn và các hạn chế của kỹ thuật quét.
-6. **Tài liệu tham khảo** (`## Tài liệu tham khảo`)
-   - Danh sách nguồn trích dẫn uy tín.
+1. **Độc Lập Giải Thích:** Bảng và hình ảnh phải có khả năng hiểu được mà không cần tham chiếu lại văn bản chính.
+2. **Tiêu Đề Bảng & Cột:** Sử dụng **viết hoa chữ cái đầu câu (sentence-style capitalization)** cho tiêu đề cột, nhãn trục và nhãn hình ảnh (trừ tiêu đề chính).
+3. **Ghi Chú Chân Bảng:** Sử dụng các chữ cái viết thường dạng chỉ số trên ($^{a, b, c}$) theo thứ tự bảng chữ cái để đánh dấu ghi chú.
+4. **Sơ Đồ Luồng Tiêu Chuẩn:** Sử dụng sơ đồ luồng CONSORT cho các thử nghiệm lâm sàng ngẫu nhiên, PRISMA cho tổng quan phân tích gộp, và STARD cho nghiên cứu độ chính xác chẩn đoán.
 
 ---
 
-## 6. Hình ảnh, Bảng biểu và Callouts (Asides)
+## 6. Trích Dẫn & Tài Liệu Tham Khảo (AMA Lần Thứ 11)
 
-### Hình ảnh (Pictures/Images)
+### Trích Dẫn Trong Văn Bản
 
-- Cú pháp chèn ảnh sử dụng đường dẫn tương đối trỏ đến thư mục `assets` gốc: `![Mô tả ngắn gọn alt-text](../../assets/tên-thành-phần/tên-bài/tên-ảnh.png)`
-- **Chú thích ảnh bắt buộc:** Phải đặt ngay bên dưới hoặc bên trên ảnh, viết nghiêng và đặt trong ngoặc kép:
-  - _Ví dụ:_ `_Hình "Mặt cắt dọc động mạch chủ bụng thượng vị"._`
+- Sử dụng chữ số Ả Rập ở dạng chỉ số trên ($^{1}$, $^{2,3}$, $^{4-7}$) đặt **bên ngoài** dấu chấm và dấu phẩy, và **bên trong** dấu hai chấm và dấu chấm phẩy.
+- Đánh số trích dẫn theo thứ tự xuất hiện liên tiếp trong văn bản.
 
-### Bảng biểu (Tables)
+> **Ví dụ:**
+>
+> - _Như đã được báo cáo trong nhiều thử nghiệm trước đây,<sup>1,3-5</sup> nguy cơ biến cố bất lợi là thấp._
+> - _Các phát hiện mang tính kết luận<sup>6</sup>; tuy nhiên, cần có thêm nghiên cứu._
 
-- Sử dụng bảng Markdown để so sánh hoặc hệ thống hóa dữ liệu số lượng phức tạp.
-- **Chú thích bảng bắt buộc:** Đặt ngay phía trên bảng biểu, viết nghiêng và đặt trong ngoặc kép:
-  - _Ví dụ:_ `_Bảng "Các mức độ hẹp động mạch cảnh theo vận tốc đỉnh tâm thu"._`
+### Định Dạng Danh Sách Tài Liệu Tham Khảo
 
-**Ví dụ trình bày:**
+Liệt kê 6 tác giả đầu tiên, nếu có từ 7 tác giả trở lên, thêm "et al." sau tác giả thứ 6.
 
-```md
-_Bảng "Tiêu chuẩn chẩn đoán phình động mạch chủ bụng"._
+#### 1. Bài Báo Tạp Chí
 
-| Đường kính động mạch chủ bụng (cm) | Phân loại mức độ | Khuyến cáo theo dõi  |
-| ---------------------------------- | ---------------- | -------------------- |
-| < 3.0                              | Bình thường      | Không cần theo dõi   |
-| 3.0 - 4.0                          | Nhỏ              | Siêu âm mỗi 12 tháng |
-| 4.0 - 5.4                          | Trung bình       | Siêu âm mỗi 6 tháng  |
-| ≥ 5.5                              | Lớn              | Chỉ định phẫu thuật  |
-```
+Tác giả. Tiêu đề bài báo: tiêu đề phụ. _Tên Tạp Chí Viết Tắt_. Năm;Tập(Số):Trang. doi:10.xxxx/xxxx
 
-### Hộp thông tin nổi bật (Asides/Callouts)
+> **Ví dụ:**
+> Christiansen SL, Iverson C, Flanagin A, et al. Preferred reporting style for medical publishing. _JAMA_. 2020;323(12):1150-1158. doi:10.1001/jama.2020.1234
 
-Sử dụng cú pháp Blume Asides để phân loại thông tin cảnh báo kỹ thuật và lâm sàng:
+#### 2. Sách
 
-- `:::note` (Ghi chú): Dùng cho định nghĩa, tiêu chuẩn chẩn đoán, giá trị bình thường, thông tin bổ sung.
-- `:::tip` (Lời khuyên/Mẹo): Các kinh nghiệm thực hành lâm sàng, kỹ thuật chỉnh máy hoặc thao tác đầu dò giúp tối ưu hóa hình ảnh.
-- `:::caution` (Thận trọng): Cảnh báo về các sai sót thường gặp, chẩn đoán nhầm do xảo ảnh, hoặc các lỗi thao tác đầu dò cần tránh.
-- `:::danger` (Nguy hiểm): Các dấu hiệu nguy kịch đỏ đe dọa tính mạng (ví dụ: phình tách động mạch chủ bụng dọa vỡ), chống chỉ định tuyệt đối.
+Tác giả hoặc Biên tập viên. _Tiêu Đề Sách_. Tái bản lần thứ. Nhà xuất bản; Năm.
 
-**Ví dụ:**
+> **Ví dụ:**
+> Bauchner H, Fontanarosa PB, eds. _AMA Manual of Style: A Guide for Authors and Editors_. 11th ed. Oxford University Press; 2020.
 
-```md
-:::danger
-Nếu phát hiện đường kính túi phình động mạch chủ bụng ≥ 5.5 cm hoặc có dấu hiệu tụ máu thành sau, hãy chuyển cấp cứu ngoại khoa mạch máu ngay lập tức vì nguy cơ vỡ cực kỳ cao.
-:::
-```
+#### 3. Chương Trong Sách Biên Biên
+
+Tác giả. Tiêu đề chương. Trong: Biên tập viên, ed. _Tiêu Đề Sách_. Tái bản lần thứ. Nhà xuất bản; Năm:Trang.
+
+> **Ví dụ:**
+> Fontanarosa PB. Article types and reporting standards. In: Christiansen SL, ed. _AMA Manual of Style_. 11th ed. Oxford University Press; 2020:1-12.
+
+#### 4. Trang Web / Tài Liệu Trực Tuyến
+
+Tác giả hoặc Tổ chức. Tiêu đề trang web/tài liệu. Tên Trang Web. Ngày xuất bản. Ngày cập nhật. Ngày truy cập. URL
+
+> **Ví dụ:**
+> World Health Organization. Guideline on hypertension management. World Health Organization. Published March 15, 2022. Accessed August 10, 2023. https://www.who.int/cardiovascular_diseases/guidelines/hypertension
+
+### DOI và URL
+
+- **Không Có Dấu Chấm Ở Cuối:** Không đặt dấu chấm sau DOI hoặc URL trong danh sách tài liệu tham khảo để tránh lỗi liên kết và sao chép.
+- **Ưu Tiên DOI:** Luôn bao gồm DOI nếu có. Sử dụng tiền tố `https://doi.org/`.
 
 ---
 
-## 7. Tài liệu tham khảo (References)
+## 7. Tiêu Chuẩn Đạo Đức & Tác Giả
 
-Danh sách tài liệu tham khảo phải được chuẩn hóa theo cấu trúc định dạng nhất quán:
-`Tên tổ chức/Tác giả (Năm) - Tên bài viết/Tên sách in nghiêng`.
+- **Tiêu Chí Tác Giả (ICMJE):** Tác giả phải đóng góp quan trọng vào ý tưởng/thiết kế, viết/sửa đổi bản thảo, chấp thuận xuất bản và chịu trách nhiệm nội dung.
+- **Ẩn Danh Hóa Bệnh Nhân:** Loại bỏ tất cả thông tin định danh bệnh nhân (tên, số bệnh án) khỏi văn bản, bảng và hình ảnh siêu âm.
 
-- **Quy tắc:**
-  - Sắp xếp theo thứ tự ưu tiên: Tài liệu trong nước (Bộ Y tế) trước, tài liệu quốc tế (AIUM, ISUOG, WFUMB, ACR, các sách chuẩn mực...) sau.
-  - Các chữ cái đầu tiên viết hoa, tên sách/văn bản pháp quy được in nghiêng.
+---
 
-**Ví dụ:**
+## 8. Ngữ Pháp, Quy Tắc Trình Bày & Đơn Vị Đo Lường
 
-```md
-## Tài liệu tham khảo
+### Quy Tắc Viết Hoa
 
-- Bộ Y tế Việt Nam (2020) - _Hướng dẫn quy trình kỹ thuật chuyên ngành Siêu âm_.
-- Peter R. Rumack et al. (2018) - _Diagnostic Ultrasound 5th Edition_.
-- AIUM (2019) - _Practice Parameter for the Performance of an Ultrasound Examination of the Abdomen_.
-```
+- **Viết Hoa Tiêu Đề (Title Case):** Viết hoa các từ chính trong tiêu đề bài báo, tiêu đề phụ và tiêu đề mục lớn.
+- **Eponyms (Tên Bệnh/Hội Chứng Mang Tên Người):** Bỏ sở hữu cách đối với tên eponyms (ví dụ: _bệnh Alzheimer_, không dùng _bệnh Alzheimer's_; _bệnh Parkinson_, không dùng _bệnh Parkinson's_).
+
+### Dấu Câu & Dấu Nối
+
+- **Hạn Chế Dấu Nối:** Không dùng dấu nối cho các từ ghép hai từ phổ biến được đọc cùng nhau như một khái niệm duy nhất:
+  - _health care system_ (không dùng _health-care system_)
+  - _open access journal_ (không dùng _open-access journal_)
+
+### Đơn Vị SI & Chữ Số
+
+- **Tiêu Chuẩn Đơn Vị SI:** Trình bày các giá trị xét nghiệm và đo lường theo Hệ đơn vị quốc tế (SI) hoặc định dạng kép.
+- **Khoảng Cách Trong Đo Nhiệt Độ:** Có khoảng trắng giữa chữ số và ký hiệu độ/đơn vị: **37,5 °C** (không viết _37,5°C_).
+- **Chữ Số vs Chữ Viết:**
+  - Viết bằng chữ đối với các số đứng đầu câu (hoặc viết lại câu).
+  - Sử dụng chữ số cho các số từ 10 trở lên, và cho tất cả các số biểu thị đơn vị đo lường, thời gian, tuổi, phần trăm hoặc giá trị thống kê (ví dụ: _5 mg_, _3 tuổi_, _2%_, _2 bệnh nhân_).
