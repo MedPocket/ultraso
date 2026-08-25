@@ -21,11 +21,11 @@ Viết tài liệu y khoa và hướng dẫn siêu âm lâm sàng chất lượn
 
 ### Các Loại Bài Báo Tiêu Chuẩn
 
-| Thể Loại Bài Báo                         | Mục Đích / Phạm Vi                                                   | Độ Dài / Giới Hạn Tiêu Chuẩn | Yêu Cầu Chính                                                  |
-| :--------------------------------------- | :------------------------------------------------------------------- | :--------------------------- | :------------------------------------------------------------- |
-| **Báo Cáo Nghiên Cứu / Nghiên Cứu Gốc**  | Nghiên cứu thực nghiệm ban đầu (RCT, đoàn hệ, bệnh-chứng, chẩn đoán) | 3000–3500 từ                 | Tóm tắt có cấu trúc, định dạng IMRAD, bảng kiểm CONSORT/STROBE |
-| **Tổng Quan Hệ Thống & Phân Tích Gộp**   | Tổng hợp bằng chứng toàn diện từ các cơ sở dữ liệu                   | 3000–3500 từ                 | Tóm tắt có cấu trúc, sơ đồ PRISMA, chiến lược tìm kiếm         |
-| **Tổng Quan Mô Tả (Narrative Review)**   | Tổng quan chuyên gia về một chủ đề lâm sàng hoặc tổng hợp giáo dục   | 2000–3000 từ                 | Tóm tắt có hoặc không cấu trúc, tổng hợp dựa trên bằng chứng   |
+| Thể Loại Bài Báo                        | Mục Đích / Phạm Vi                                                   | Độ Dài / Giới Hạn Tiêu Chuẩn | Yêu Cầu Chính                                                  |
+| :-------------------------------------- | :------------------------------------------------------------------- | :--------------------------- | :------------------------------------------------------------- |
+| **Báo Cáo Nghiên Cứu / Nghiên Cứu Gốc** | Nghiên cứu thực nghiệm ban đầu (RCT, đoàn hệ, bệnh-chứng, chẩn đoán) | 3000–3500 từ                 | Tóm tắt có cấu trúc, định dạng IMRAD, bảng kiểm CONSORT/STROBE |
+| **Tổng Quan Hệ Thống & Phân Tích Gộp**  | Tổng hợp bằng chứng toàn diện từ các cơ sở dữ liệu                   | 3000–3500 từ                 | Tóm tắt có cấu trúc, sơ đồ PRISMA, chiến lược tìm kiếm         |
+| **Tổng Quan Mô Tả (Narrative Review)**  | Tổng quan chuyên gia về một chủ đề lâm sàng hoặc tổng hợp giáo dục   | 2000–3000 từ                 | Tóm tắt có hoặc không cấu trúc, tổng hợp dựa trên bằng chứng   |
 
 ### Cấu Trúc Chuẩn Hóa Bài Hướng Dẫn Siêu Âm Lâm Sàng
 
@@ -152,6 +152,7 @@ Tránh định danh cá nhân bằng tình trạng bệnh lý, tuổi tác hoặ
 - Đánh số trích dẫn theo thứ tự xuất hiện liên tiếp trong văn bản.
 
 > **Ví dụ:**
+>
 > - _Như đã được báo cáo trong nhiều thử nghiệm trước đây,<sup>1,3-5</sup> nguy cơ biến cố bất lợi là thấp._
 > - _Các phát hiện mang tính kết luận<sup>6</sup>; tuy nhiên, cần có thêm nghiên cứu._
 
