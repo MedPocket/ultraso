@@ -32,10 +32,10 @@ Viết tài liệu y khoa và hướng dẫn siêu âm lâm sàng chất lượn
 Đối với các bài giảng hoặc hướng dẫn kỹ thuật siêu âm/mặt cắt lâm sàng, tuân thủ nghiêm ngặt các mục sau:
 
 - **Tổng quan:** Trình bày về vấn đề lâm sàng, bối cảnh, khoảng trống kiến thức, và mục tiêu.
-- **Chỉ định & Chống chỉ định (nếu có):** Liệt kê các triệu chứng, bệnh lý hoặc tình huống lâm sàng cần thực hiện (ví dụ: đau bụng cấp, nghi ngờ tắc mạch...). Các chống chỉ định trên siêu âm.
-- **Chuẩn bị:** Yêu cầu chuẩn bị (nhịn ăn 6-8 tiếng, nhịn tiểu làm đầy bàng quang, ngừng thuốc...). Loại máy siêu âm, loại đầu dò (Convex, Linear, Transvaginal...). Tần số đầu dò khuyên dùng (MHz).
-- **Kỹ thuật:** Tư thế bệnh nhân, cài đặt máy, kỹ thuật quét & lát cắt chuẩn, chỉ số cần do đạc.
-- **Tiêu chuẩn chẩn đoán, đánh giá:**: Mô tả hình ảnh (nhu mô, kích thước, bờ, hồi âm (trống/kém/dày), tính chất tưới máu...), tiêu chuẩn chẩn đoán, chẩn đoán phân biệt và cạm bẫy.
+- **Kỹ thuật:**
+  - Yêu cầu chuẩn bị (nhịn ăn 6-8 tiếng, nhịn tiểu làm đầy bàng quang, ngừng thuốc...). Loại máy siêu âm, loại đầu dò (Convex, Linear, Transvaginal...). Tần số đầu dò khuyên dùng (MHz).
+  - Tư thế bệnh nhân, cài đặt máy, kỹ thuật quét & lát cắt chuẩn, chỉ số cần do đạc.
+- **Đánh giá:**: Mô tả hình ảnh (nhu mô, kích thước, bờ, hồi âm (trống/kém/dày), tính chất tưới máu...), tiêu chuẩn chẩn đoán, chẩn đoán phân biệt, xảo ảnh và cạm bẫy.
 
 ### Tiêu Đề và Tiêu Đề Phụ
 
