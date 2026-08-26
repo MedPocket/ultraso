@@ -35,7 +35,7 @@ Viết tài liệu y khoa và hướng dẫn siêu âm lâm sàng chất lượn
 - **Kỹ thuật:**
   - Yêu cầu chuẩn bị (nhịn ăn 6-8 tiếng, nhịn tiểu làm đầy bàng quang, ngừng thuốc...). Loại máy siêu âm, loại đầu dò (Convex, Linear, Transvaginal...). Tần số đầu dò khuyên dùng (MHz).
   - Tư thế bệnh nhân, cài đặt máy, kỹ thuật quét & lát cắt chuẩn, chỉ số cần do đạc.
-- **Đánh giá:**: Mô tả hình ảnh (nhu mô, kích thước, bờ, hồi âm (trống/kém/dày), tính chất tưới máu...), tiêu chuẩn chẩn đoán, chẩn đoán phân biệt, xảo ảnh và cạm bẫy.
+- **Đánh giá:**: Mô tả hình ảnh (nhu mô, kích thước, bờ, hồi âm (trống/kém/dày), tính chất tưới máu...), tiêu chuẩn chẩn đoán, chẩn đoán phân biệt, xảo ảnh.
 
 ### Tiêu Đề và Tiêu Đề Phụ
 
