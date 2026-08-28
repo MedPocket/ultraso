@@ -6,11 +6,9 @@
 
 ## Develop locally
 
-To get started, make sure you have [Node.js](https://nodejs.org) and [Bun](https://bun.com) installed on your system. Then, follow these steps:
+To get started, make sure you have [Bun](https://bun.com) installed on your system. Then, follow these steps:
 
 ```bash
-git clone https://github.com/MedPocket/ultraso
-cd ultraso
 bun install
 bun dev
 ```
