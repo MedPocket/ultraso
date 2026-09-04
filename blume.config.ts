@@ -21,17 +21,14 @@ export default defineConfig({
   seo: {
     og: {
       site: false,
+      logo: false,
     },
   },
 
   theme: {
-    accent: "blue",
+    accent: "green",
     radius: "md",
-    mode: "system",
-    fonts: {
-      display: { name: "Be Vietnam Pro", provider: "fontsource" },
-      body: { name: "Be Vietnam Pro", provider: "fontsource" },
-    },
+    mode: "light",
   },
 
   deployment: {
