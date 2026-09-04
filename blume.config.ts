@@ -25,12 +25,15 @@ export default defineConfig({
   },
 
   theme: {
-    accent: "blue",
+    accent: {
+      light: "blue",
+      dark: "blue",
+    },
     radius: "md",
-    mode: "system",
+    mode: "light",
     fonts: {
-      display: { name: "Be Vietnam Pro", provider: "fontsource" },
-      body: { name: "Be Vietnam Pro", provider: "fontsource" },
+      display: "inter",
+      body: "inter",
     },
   },
 
