@@ -29,6 +29,10 @@ export default defineConfig({
     accent: "green",
     radius: "md",
     mode: "light",
+    fonts: {
+      body: "inter",
+      display: "inter",
+    },
   },
 
   deployment: {
