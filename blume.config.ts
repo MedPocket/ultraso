@@ -36,7 +36,6 @@ export default defineConfig({
   },
 
   deployment: {
-    output: "static",
     base: process.env.NETLIFY === "true" ? "/" : "/ultraso",
   },
 });
