@@ -30,5 +30,5 @@ Follow [**STYLEGUIDE.md**](./STYLEGUIDE.md) for all document formatting, style s
 ## Review Checklist
 
 - [ ] Run `bun install` after pulling remote changes and before getting started.
-- [ ] Run `bun run typecheck`, `bun run lint lint` and `bun run fmt` to format, lint, type check.
+- [ ] Run `bun run typecheck`, `bun run lint` and `bun run fmt` to format, lint, type check.
 - [ ] Check if `package.json` scripts necessary for validation, run via `bun run <script>`.
